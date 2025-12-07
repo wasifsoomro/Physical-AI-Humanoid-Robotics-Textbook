@@ -1,0 +1,26 @@
+{
+  "id": "module4/chapter3",
+  "title": "Chapter 3: Scene Understanding",
+  "description": "Introduction to Scene Understanding",
+  "source": "@site/docs/module4/chapter3.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter3",
+  "permalink": "/humanoid-robotics-book/docs/module4/chapter3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 2: Speech → LLM → Action Pipeline",
+    "permalink": "/humanoid-robotics-book/docs/module4/chapter2"
+  },
+  "next": {
+    "title": "Chapter 4: Natural Language Robot Control",
+    "permalink": "/humanoid-robotics-book/docs/module4/chapter4"
+  }
+}

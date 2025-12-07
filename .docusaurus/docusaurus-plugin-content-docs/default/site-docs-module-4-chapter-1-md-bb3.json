@@ -1,0 +1,26 @@
+{
+  "id": "module4/chapter1",
+  "title": "Chapter 1: Vision-Language-Action (VLA) Architecture",
+  "description": "Introduction to Vision-Language-Action Robotics",
+  "source": "@site/docs/module4/chapter1.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter1",
+  "permalink": "/humanoid-robotics-book/docs/module4/chapter1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 4: Synthetic Data Generation",
+    "permalink": "/humanoid-robotics-book/docs/module3/chapter4"
+  },
+  "next": {
+    "title": "Chapter 2: Speech → LLM → Action Pipeline",
+    "permalink": "/humanoid-robotics-book/docs/module4/chapter2"
+  }
+}

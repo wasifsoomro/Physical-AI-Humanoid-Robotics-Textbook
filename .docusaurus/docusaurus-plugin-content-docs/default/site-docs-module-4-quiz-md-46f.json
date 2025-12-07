@@ -1,0 +1,26 @@
+{
+  "id": "module4/quiz",
+  "title": "Module 4 Quiz: Vision-Language-Action Robotics",
+  "description": "Test your understanding of Vision-Language-Action systems, natural language processing, scene understanding, and integrated humanoid robot control with these questions.",
+  "source": "@site/docs/module4/quiz.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/quiz",
+  "permalink": "/humanoid-robotics-book/docs/module4/quiz",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
+    "permalink": "/humanoid-robotics-book/docs/module4/summary"
+  },
+  "next": {
+    "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
+    "permalink": "/humanoid-robotics-book/docs/module4/mini-project"
+  }
+}

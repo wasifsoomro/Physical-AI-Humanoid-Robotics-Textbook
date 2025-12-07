@@ -1,0 +1,23 @@
+{
+  "id": "module2/chapter3",
+  "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+  "description": "Chapter 3: ROS-Gazebo Bridge",
+  "source": "@site/docs/module2/chapter3.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter3",
+  "permalink": "/humanoid-robotics-book/docs/module2/chapter3",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/chapter2"
+  },
+  "next": {
+    "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/summary"
+  }
+}

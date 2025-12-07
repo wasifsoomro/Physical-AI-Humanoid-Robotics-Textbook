@@ -1,0 +1,22 @@
+{
+  "id": "module4/practical-demos",
+  "title": "Module 4 Practical Demos: Vision-Language-Action Robotics",
+  "description": "Demo 1: Simple VLA Command Processor",
+  "source": "@site/docs/module4/practical-demos.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/practical-demos",
+  "permalink": "/humanoid-robotics-book/docs/module4/practical-demos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
+    "permalink": "/humanoid-robotics-book/docs/module4/mini-project"
+  }
+}

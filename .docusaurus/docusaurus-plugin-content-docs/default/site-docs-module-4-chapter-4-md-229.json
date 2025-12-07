@@ -1,0 +1,26 @@
+{
+  "id": "module4/chapter4",
+  "title": "Chapter 4: Natural Language Robot Control",
+  "description": "Introduction to Natural Language Robot Control",
+  "source": "@site/docs/module4/chapter4.md",
+  "sourceDirName": "module4",
+  "slug": "/module4/chapter4",
+  "permalink": "/humanoid-robotics-book/docs/module4/chapter4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Scene Understanding",
+    "permalink": "/humanoid-robotics-book/docs/module4/chapter3"
+  },
+  "next": {
+    "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
+    "permalink": "/humanoid-robotics-book/docs/module4/summary"
+  }
+}

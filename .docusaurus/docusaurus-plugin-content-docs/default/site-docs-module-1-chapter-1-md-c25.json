@@ -1,0 +1,23 @@
+{
+  "id": "module1/chapter1",
+  "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+  "description": "Welcome to Module 1! In this module, we'll dive into the heart of modern robotics: the Robot Operating System 2 (ROS 2). Think of ROS 2 as the nervous system of a robot, allowing different parts (like its brain, sensors, and motors) to communicate and work together.",
+  "source": "@site/docs/module1/chapter1.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/chapter1",
+  "permalink": "/humanoid-robotics-book/docs/module1/chapter1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Introduction to Physical AI & Humanoid Robotics",
+    "permalink": "/humanoid-robotics-book/docs/intro"
+  },
+  "next": {
+    "title": "Understanding URDF and TF for Humanoids",
+    "permalink": "/humanoid-robotics-book/docs/module1/chapter2"
+  }
+}

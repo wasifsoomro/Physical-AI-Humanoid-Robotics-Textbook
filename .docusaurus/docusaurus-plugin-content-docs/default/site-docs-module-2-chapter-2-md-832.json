@@ -1,0 +1,23 @@
+{
+  "id": "module2/chapter2",
+  "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+  "description": "Chapter 2: Physics and Sensors",
+  "source": "@site/docs/module2/chapter2.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter2",
+  "permalink": "/humanoid-robotics-book/docs/module2/chapter2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/chapter1"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/chapter3"
+  }
+}

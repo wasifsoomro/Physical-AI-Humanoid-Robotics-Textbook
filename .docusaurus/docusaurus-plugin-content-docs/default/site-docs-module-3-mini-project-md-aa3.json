@@ -1,0 +1,17 @@
+{
+  "id": "module3/mini-project",
+  "title": "Module 3 Mini-Project: Integrated Perception and Navigation System",
+  "description": "Project Overview",
+  "source": "@site/docs/module3/mini-project.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/mini-project",
+  "permalink": "/humanoid-robotics-book/docs/module3/mini-project",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  }
+}

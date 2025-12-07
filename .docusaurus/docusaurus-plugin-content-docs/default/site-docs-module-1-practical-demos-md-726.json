@@ -1,0 +1,26 @@
+{
+  "id": "module1/practical-demos",
+  "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
+  "description": "Demo 1: Interactive Publisher/Subscriber System",
+  "source": "@site/docs/module1/practical-demos.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/practical-demos",
+  "permalink": "/humanoid-robotics-book/docs/module1/practical-demos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1 Mini-Project: Humanoid Arm Controller",
+    "permalink": "/humanoid-robotics-book/docs/module1/mini-project"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/chapter1"
+  }
+}

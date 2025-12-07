@@ -1,0 +1,17 @@
+{
+  "id": "module3/practical-demos",
+  "title": "Module 3 Practical Demos: AI-Robot Brain",
+  "description": "Demo 1: Isaac ROS Visual SLAM Integration",
+  "source": "@site/docs/module3/practical-demos.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/practical-demos",
+  "permalink": "/humanoid-robotics-book/docs/module3/practical-demos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  }
+}

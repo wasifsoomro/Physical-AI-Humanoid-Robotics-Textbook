@@ -1,0 +1,19 @@
+{
+  "id": "intro",
+  "title": "Introduction to Physical AI & Humanoid Robotics",
+  "description": "Welcome to the exciting world of Physical AI and Humanoid Robotics! This book is designed to guide you through the fundamental concepts and practical applications of bringing intelligent machines to life. You'll learn how robots perceive their environment, make decisions, and interact with the physical world, focusing specifically on humanoid forms.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/humanoid-robotics-book/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+    "permalink": "/humanoid-robotics-book/docs/module1/chapter1"
+  }
+}

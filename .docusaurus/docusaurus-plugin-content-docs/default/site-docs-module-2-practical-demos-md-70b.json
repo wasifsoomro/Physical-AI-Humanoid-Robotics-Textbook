@@ -1,0 +1,26 @@
+{
+  "id": "module2/practical-demos",
+  "title": "Module 2 Practical Demos: Digital Twin Simulation",
+  "description": "Demo 1: Interactive Sensor Visualization",
+  "source": "@site/docs/module2/practical-demos.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/practical-demos",
+  "permalink": "/humanoid-robotics-book/docs/module2/practical-demos",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
+    "permalink": "/humanoid-robotics-book/docs/module2/mini-project"
+  },
+  "next": {
+    "title": "Chapter 1: Perception, Mapping, and Navigation",
+    "permalink": "/humanoid-robotics-book/docs/module3/chapter1"
+  }
+}

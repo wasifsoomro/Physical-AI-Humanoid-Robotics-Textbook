@@ -1,0 +1,26 @@
+{
+  "id": "module2/quiz",
+  "title": "Module 2 Quiz: Digital Twin Simulation",
+  "description": "Test your understanding of digital twin simulation, Gazebo, sensor integration, and ROS-Gazebo communication with these questions.",
+  "source": "@site/docs/module2/quiz.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/quiz",
+  "permalink": "/humanoid-robotics-book/docs/module2/quiz",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/summary"
+  },
+  "next": {
+    "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
+    "permalink": "/humanoid-robotics-book/docs/module2/mini-project"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "label": "Module 3 - AI-Robot Brain (NVIDIA Isaac + Isaac ROS)",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn AI-Robot Brain: Perception, mapping, navigation, Visual SLAM, Nav2 humanoid control, and synthetic data generation using NVIDIA Isaac and Isaac ROS."
+  },
+  "collapsed": false
+}

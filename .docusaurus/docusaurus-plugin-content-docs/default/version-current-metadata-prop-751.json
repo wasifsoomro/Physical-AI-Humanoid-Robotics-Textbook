@@ -1,0 +1,419 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction to Physical AI & Humanoid Robotics",
+        "href": "/humanoid-robotics-book/docs/intro",
+        "docId": "intro",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Module 1 - The Robotic Nervous System (ROS 2)",
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+            "href": "/humanoid-robotics-book/docs/module1/chapter1",
+            "docId": "module1/chapter1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Understanding URDF and TF for Humanoids",
+            "href": "/humanoid-robotics-book/docs/module1/chapter2",
+            "docId": "module1/chapter2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Joint Control Examples",
+            "href": "/humanoid-robotics-book/docs/module1/chapter3",
+            "docId": "module1/chapter3",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
+            "href": "/humanoid-robotics-book/docs/module1/summary",
+            "docId": "module1/summary",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 1 Quiz: ROS 2 Fundamentals",
+            "href": "/humanoid-robotics-book/docs/module1/quiz",
+            "docId": "module1/quiz",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 1 Mini-Project: Humanoid Arm Controller",
+            "href": "/humanoid-robotics-book/docs/module1/mini-project",
+            "docId": "module1/mini-project",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 1 Practical Demos: ROS 2 Fundamentals",
+            "href": "/humanoid-robotics-book/docs/module1/practical-demos",
+            "docId": "module1/practical-demos",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 2 - Digital Twin Simulation (Gazebo + Unity)",
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1: Humanoid URDF in Gazebo",
+            "href": "/humanoid-robotics-book/docs/module2/chapter1",
+            "docId": "module2/chapter1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Physics and Sensors",
+            "href": "/humanoid-robotics-book/docs/module2/chapter2",
+            "docId": "module2/chapter2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: ROS-Gazebo Bridge",
+            "href": "/humanoid-robotics-book/docs/module2/chapter3",
+            "docId": "module2/chapter3",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
+            "href": "/humanoid-robotics-book/docs/module2/summary",
+            "docId": "module2/summary",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 2 Quiz: Digital Twin Simulation",
+            "href": "/humanoid-robotics-book/docs/module2/quiz",
+            "docId": "module2/quiz",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
+            "href": "/humanoid-robotics-book/docs/module2/mini-project",
+            "docId": "module2/mini-project",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 2 Practical Demos: Digital Twin Simulation",
+            "href": "/humanoid-robotics-book/docs/module2/practical-demos",
+            "docId": "module2/practical-demos",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 3 - AI-Robot Brain",
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1: Perception, Mapping, and Navigation",
+            "href": "/humanoid-robotics-book/docs/module3/chapter1",
+            "docId": "module3/chapter1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
+            "href": "/humanoid-robotics-book/docs/module3/chapter2",
+            "docId": "module3/chapter2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Nav2 Humanoid Control",
+            "href": "/humanoid-robotics-book/docs/module3/chapter3",
+            "docId": "module3/chapter3",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 4: Synthetic Data Generation",
+            "href": "/humanoid-robotics-book/docs/module3/chapter4",
+            "docId": "module3/chapter4",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Module 4 - Vision-Language-Action Robotics",
+        "items": [
+          {
+            "type": "link",
+            "label": "Chapter 1: Understanding Vision-Language-Action Models",
+            "href": "/humanoid-robotics-book/docs/module4/chapter1",
+            "docId": "module4/chapter1",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 2: Natural Language Processing for Robotics",
+            "href": "/humanoid-robotics-book/docs/module4/chapter2",
+            "docId": "module4/chapter2",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 3: Action Planning and Execution",
+            "href": "/humanoid-robotics-book/docs/module4/chapter3",
+            "docId": "module4/chapter3",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Chapter 4: Human-Robot Interaction and Communication",
+            "href": "/humanoid-robotics-book/docs/module4/chapter4",
+            "docId": "module4/chapter4",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
+            "href": "/humanoid-robotics-book/docs/module4/summary",
+            "docId": "module4/summary",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 4 Quiz: Vision-Language-Action Robotics",
+            "href": "/humanoid-robotics-book/docs/module4/quiz",
+            "docId": "module4/quiz",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
+            "href": "/humanoid-robotics-book/docs/module4/mini-project",
+            "docId": "module4/mini-project",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Module 4 Practical Demos: Vision-Language-Action Robotics",
+            "href": "/humanoid-robotics-book/docs/module4/practical-demos",
+            "docId": "module4/practical-demos",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      }
+    ]
+  },
+  "docs": {
+    "intro": {
+      "id": "intro",
+      "title": "Introduction to Physical AI & Humanoid Robotics",
+      "description": "Welcome to the exciting world of Physical AI and Humanoid Robotics! This book is designed to guide you through the fundamental concepts and practical applications of bringing intelligent machines to life. You'll learn how robots perceive their environment, make decisions, and interact with the physical world, focusing specifically on humanoid forms.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/chapter1": {
+      "id": "module1/chapter1",
+      "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+      "description": "Welcome to Module 1! In this module, we'll dive into the heart of modern robotics: the Robot Operating System 2 (ROS 2). Think of ROS 2 as the nervous system of a robot, allowing different parts (like its brain, sensors, and motors) to communicate and work together.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/chapter2": {
+      "id": "module1/chapter2",
+      "title": "Understanding URDF and TF for Humanoids",
+      "description": "Welcome to Chapter 2 of Module 1! In this chapter, we will dive into two fundamental concepts in ROS 2 robotics: URDF (Unified Robot Description Format) and TF (Transform Frame). These are crucial for describing your robot's physical structure and understanding its position and orientation in a 3D space.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/chapter3": {
+      "id": "module1/chapter3",
+      "title": "Joint Control Examples",
+      "description": "Welcome to Chapter 3 of Module 1! In this chapter, we will delve into the practical aspects of controlling humanoid robot joints using ROS 2. Building upon our understanding of URDF and TF, we'll explore how to send commands to individual joints and create basic motion sequences with Python.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/mini-project": {
+      "id": "module1/mini-project",
+      "title": "Module 1 Mini-Project: Humanoid Arm Controller",
+      "description": "Project Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/practical-demos": {
+      "id": "module1/practical-demos",
+      "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
+      "description": "Demo 1: Interactive Publisher/Subscriber System",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/quiz": {
+      "id": "module1/quiz",
+      "title": "Module 1 Quiz: ROS 2 Fundamentals",
+      "description": "Test your understanding of ROS 2 core concepts, URDF, TF, and joint control with these questions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module1/summary": {
+      "id": "module1/summary",
+      "title": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/chapter1": {
+      "id": "module2/chapter1",
+      "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+      "description": "Chapter 1: Humanoid URDF in Gazebo",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/chapter2": {
+      "id": "module2/chapter2",
+      "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+      "description": "Chapter 2: Physics and Sensors",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/chapter3": {
+      "id": "module2/chapter3",
+      "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+      "description": "Chapter 3: ROS-Gazebo Bridge",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/mini-project": {
+      "id": "module2/mini-project",
+      "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
+      "description": "Project Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/practical-demos": {
+      "id": "module2/practical-demos",
+      "title": "Module 2 Practical Demos: Digital Twin Simulation",
+      "description": "Demo 1: Interactive Sensor Visualization",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/quiz": {
+      "id": "module2/quiz",
+      "title": "Module 2 Quiz: Digital Twin Simulation",
+      "description": "Test your understanding of digital twin simulation, Gazebo, sensor integration, and ROS-Gazebo communication with these questions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module2/summary": {
+      "id": "module2/summary",
+      "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3/chapter1": {
+      "id": "module3/chapter1",
+      "title": "Chapter 1: Perception, Mapping, and Navigation",
+      "description": "Introduction",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3/chapter2": {
+      "id": "module3/chapter2",
+      "title": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
+      "description": "Introduction to Visual SLAM",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3/chapter3": {
+      "id": "module3/chapter3",
+      "title": "Chapter 3: Nav2 Humanoid Control",
+      "description": "Introduction to Navigation in Robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3/chapter4": {
+      "id": "module3/chapter4",
+      "title": "Chapter 4: Synthetic Data Generation",
+      "description": "Introduction to Synthetic Data in Robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "module3/mini-project": {
+      "id": "module3/mini-project",
+      "title": "Module 3 Mini-Project: Integrated Perception and Navigation System",
+      "description": "Project Overview"
+    },
+    "module3/practical-demos": {
+      "id": "module3/practical-demos",
+      "title": "Module 3 Practical Demos: AI-Robot Brain",
+      "description": "Demo 1: Isaac ROS Visual SLAM Integration"
+    },
+    "module3/quiz": {
+      "id": "module3/quiz",
+      "title": "Module 3 Quiz: AI-Robot Brain",
+      "description": "Test your understanding of perception, Visual SLAM, Nav2, and synthetic data generation with these questions."
+    },
+    "module3/summary": {
+      "id": "module3/summary",
+      "title": "Module 3 Summary: AI-Robot Brain (NVIDIA Isaac + Isaac ROS)",
+      "description": "Overview"
+    },
+    "module4/chapter1": {
+      "id": "module4/chapter1",
+      "title": "Chapter 1: Vision-Language-Action (VLA) Architecture",
+      "description": "Introduction to Vision-Language-Action Robotics",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/chapter2": {
+      "id": "module4/chapter2",
+      "title": "Chapter 2: Speech → LLM → Action Pipeline",
+      "description": "Introduction to the Speech-to-Action Pipeline",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/chapter3": {
+      "id": "module4/chapter3",
+      "title": "Chapter 3: Scene Understanding",
+      "description": "Introduction to Scene Understanding",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/chapter4": {
+      "id": "module4/chapter4",
+      "title": "Chapter 4: Natural Language Robot Control",
+      "description": "Introduction to Natural Language Robot Control",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/mini-project": {
+      "id": "module4/mini-project",
+      "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
+      "description": "Project Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/practical-demos": {
+      "id": "module4/practical-demos",
+      "title": "Module 4 Practical Demos: Vision-Language-Action Robotics",
+      "description": "Demo 1: Simple VLA Command Processor",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/quiz": {
+      "id": "module4/quiz",
+      "title": "Module 4 Quiz: Vision-Language-Action Robotics",
+      "description": "Test your understanding of Vision-Language-Action systems, natural language processing, scene understanding, and integrated humanoid robot control with these questions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "module4/summary": {
+      "id": "module4/summary",
+      "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

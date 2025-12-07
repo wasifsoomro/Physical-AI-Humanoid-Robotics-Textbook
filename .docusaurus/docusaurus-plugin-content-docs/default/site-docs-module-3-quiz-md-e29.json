@@ -1,0 +1,17 @@
+{
+  "id": "module3/quiz",
+  "title": "Module 3 Quiz: AI-Robot Brain",
+  "description": "Test your understanding of perception, Visual SLAM, Nav2, and synthetic data generation with these questions.",
+  "source": "@site/docs/module3/quiz.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/quiz",
+  "permalink": "/humanoid-robotics-book/docs/module3/quiz",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  }
+}

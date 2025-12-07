@@ -1,0 +1,26 @@
+{
+  "id": "module1/chapter2",
+  "title": "Understanding URDF and TF for Humanoids",
+  "description": "Welcome to Chapter 2 of Module 1! In this chapter, we will dive into two fundamental concepts in ROS 2 robotics: URDF (Unified Robot Description Format) and TF (Transform Frame). These are crucial for describing your robot's physical structure and understanding its position and orientation in a 3D space.",
+  "source": "@site/docs/module1/chapter2.md",
+  "sourceDirName": "module1",
+  "slug": "/module1/chapter2",
+  "permalink": "/humanoid-robotics-book/docs/module1/chapter2",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+    "permalink": "/humanoid-robotics-book/docs/module1/chapter1"
+  },
+  "next": {
+    "title": "Joint Control Examples",
+    "permalink": "/humanoid-robotics-book/docs/module1/chapter3"
+  }
+}

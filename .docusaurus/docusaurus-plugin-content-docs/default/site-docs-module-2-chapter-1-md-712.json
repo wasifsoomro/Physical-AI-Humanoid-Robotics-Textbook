@@ -1,0 +1,23 @@
+{
+  "id": "module2/chapter1",
+  "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+  "description": "Chapter 1: Humanoid URDF in Gazebo",
+  "source": "@site/docs/module2/chapter1.md",
+  "sourceDirName": "module2",
+  "slug": "/module2/chapter1",
+  "permalink": "/humanoid-robotics-book/docs/module2/chapter1",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
+    "permalink": "/humanoid-robotics-book/docs/module1/practical-demos"
+  },
+  "next": {
+    "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
+    "permalink": "/humanoid-robotics-book/docs/module2/chapter2"
+  }
+}

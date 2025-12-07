@@ -1,0 +1,26 @@
+{
+  "id": "module3/chapter4",
+  "title": "Chapter 4: Synthetic Data Generation",
+  "description": "Introduction to Synthetic Data in Robotics",
+  "source": "@site/docs/module3/chapter4.md",
+  "sourceDirName": "module3",
+  "slug": "/module3/chapter4",
+  "permalink": "/humanoid-robotics-book/docs/module3/chapter4",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Chapter 3: Nav2 Humanoid Control",
+    "permalink": "/humanoid-robotics-book/docs/module3/chapter3"
+  },
+  "next": {
+    "title": "Chapter 1: Vision-Language-Action (VLA) Architecture",
+    "permalink": "/humanoid-robotics-book/docs/module4/chapter1"
+  }
+}
