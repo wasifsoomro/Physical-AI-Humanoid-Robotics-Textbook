@@ -8,13 +8,12 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://wasifsoomro.github.io',
+  url: 'https://[your-vercel-project-url].vercel.app',
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/Physical-AI-Humanoid-Robotics-Textbook/',
+  // For Vercel deployment, use root
+  baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
+  // Deployment configuration
   organizationName: 'wasifsoomro',
   projectName: 'Physical-AI-Humanoid-Robotics-Textbook',
 
