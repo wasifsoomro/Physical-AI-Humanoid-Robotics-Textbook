@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/quiz.md",
   "sourceDirName": "module4",
   "slug": "/module4/quiz",
-  "permalink": "/humanoid-robotics-book/docs/module4/quiz",
+  "permalink": "/docs/module4/quiz",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
-    "permalink": "/humanoid-robotics-book/docs/module4/summary"
+    "permalink": "/docs/module4/summary"
   },
   "next": {
     "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
-    "permalink": "/humanoid-robotics-book/docs/module4/mini-project"
+    "permalink": "/docs/module4/mini-project"
   }
 }

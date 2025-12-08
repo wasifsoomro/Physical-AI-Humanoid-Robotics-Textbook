@@ -1,164 +1,164 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/humanoid-robotics-book/docs",
+      "path": "/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/humanoid-robotics-book/docs",
+          "path": "/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "intro",
-              "path": "/humanoid-robotics-book/docs/intro",
+              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/chapter1",
-              "path": "/humanoid-robotics-book/docs/module1/chapter1",
+              "path": "/docs/module1/chapter1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/chapter2",
-              "path": "/humanoid-robotics-book/docs/module1/chapter2",
+              "path": "/docs/module1/chapter2",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/chapter3",
-              "path": "/humanoid-robotics-book/docs/module1/chapter3",
+              "path": "/docs/module1/chapter3",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/mini-project",
-              "path": "/humanoid-robotics-book/docs/module1/mini-project",
+              "path": "/docs/module1/mini-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/practical-demos",
-              "path": "/humanoid-robotics-book/docs/module1/practical-demos",
+              "path": "/docs/module1/practical-demos",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/quiz",
-              "path": "/humanoid-robotics-book/docs/module1/quiz",
+              "path": "/docs/module1/quiz",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module1/summary",
-              "path": "/humanoid-robotics-book/docs/module1/summary",
+              "path": "/docs/module1/summary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/chapter1",
-              "path": "/humanoid-robotics-book/docs/module2/chapter1",
+              "path": "/docs/module2/chapter1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/chapter2",
-              "path": "/humanoid-robotics-book/docs/module2/chapter2",
+              "path": "/docs/module2/chapter2",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/chapter3",
-              "path": "/humanoid-robotics-book/docs/module2/chapter3",
+              "path": "/docs/module2/chapter3",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/mini-project",
-              "path": "/humanoid-robotics-book/docs/module2/mini-project",
+              "path": "/docs/module2/mini-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/practical-demos",
-              "path": "/humanoid-robotics-book/docs/module2/practical-demos",
+              "path": "/docs/module2/practical-demos",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/quiz",
-              "path": "/humanoid-robotics-book/docs/module2/quiz",
+              "path": "/docs/module2/quiz",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module2/summary",
-              "path": "/humanoid-robotics-book/docs/module2/summary",
+              "path": "/docs/module2/summary",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/chapter1",
-              "path": "/humanoid-robotics-book/docs/module3/chapter1",
+              "path": "/docs/module3/chapter1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/chapter2",
-              "path": "/humanoid-robotics-book/docs/module3/chapter2",
+              "path": "/docs/module3/chapter2",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/chapter3",
-              "path": "/humanoid-robotics-book/docs/module3/chapter3",
+              "path": "/docs/module3/chapter3",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/chapter4",
-              "path": "/humanoid-robotics-book/docs/module3/chapter4",
+              "path": "/docs/module3/chapter4",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module3/mini-project",
-              "path": "/humanoid-robotics-book/docs/module3/mini-project"
+              "path": "/docs/module3/mini-project"
             },
             {
               "id": "module3/practical-demos",
-              "path": "/humanoid-robotics-book/docs/module3/practical-demos"
+              "path": "/docs/module3/practical-demos"
             },
             {
               "id": "module3/quiz",
-              "path": "/humanoid-robotics-book/docs/module3/quiz"
+              "path": "/docs/module3/quiz"
             },
             {
               "id": "module3/summary",
-              "path": "/humanoid-robotics-book/docs/module3/summary"
+              "path": "/docs/module3/summary"
             },
             {
               "id": "module4/chapter1",
-              "path": "/humanoid-robotics-book/docs/module4/chapter1",
+              "path": "/docs/module4/chapter1",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/chapter2",
-              "path": "/humanoid-robotics-book/docs/module4/chapter2",
+              "path": "/docs/module4/chapter2",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/chapter3",
-              "path": "/humanoid-robotics-book/docs/module4/chapter3",
+              "path": "/docs/module4/chapter3",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/chapter4",
-              "path": "/humanoid-robotics-book/docs/module4/chapter4",
+              "path": "/docs/module4/chapter4",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/mini-project",
-              "path": "/humanoid-robotics-book/docs/module4/mini-project",
+              "path": "/docs/module4/mini-project",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/practical-demos",
-              "path": "/humanoid-robotics-book/docs/module4/practical-demos",
+              "path": "/docs/module4/practical-demos",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/quiz",
-              "path": "/humanoid-robotics-book/docs/module4/quiz",
+              "path": "/docs/module4/quiz",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "module4/summary",
-              "path": "/humanoid-robotics-book/docs/module4/summary",
+              "path": "/docs/module4/summary",
               "sidebar": "tutorialSidebar"
             }
           ],
@@ -166,7 +166,7 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/humanoid-robotics-book/docs/intro",
+                "path": "/docs/intro",
                 "label": "intro"
               }
             }

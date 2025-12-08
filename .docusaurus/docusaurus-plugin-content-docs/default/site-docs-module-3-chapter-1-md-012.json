@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/chapter1.md",
   "sourceDirName": "module3",
   "slug": "/module3/chapter1",
-  "permalink": "/humanoid-robotics-book/docs/module3/chapter1",
+  "permalink": "/docs/module3/chapter1",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2 Practical Demos: Digital Twin Simulation",
-    "permalink": "/humanoid-robotics-book/docs/module2/practical-demos"
+    "permalink": "/docs/module2/practical-demos"
   },
   "next": {
     "title": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
-    "permalink": "/humanoid-robotics-book/docs/module3/chapter2"
+    "permalink": "/docs/module3/chapter2"
   }
 }

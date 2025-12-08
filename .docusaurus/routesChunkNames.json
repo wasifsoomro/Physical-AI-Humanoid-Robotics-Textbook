@@ -1,142 +1,142 @@
 {
-  "/humanoid-robotics-book/docs-a54": {
+  "/docs-38d": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "a2c57af3"
     }
   },
-  "/humanoid-robotics-book/docs-320": {
+  "/docs-2cc": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/humanoid-robotics-book/docs-a12": {
+  "/docs-8cb": {
     "__comp": "a94703ab"
   },
-  "/humanoid-robotics-book/docs/intro-45b": {
+  "/docs/intro-aed": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/humanoid-robotics-book/docs/module1/chapter1-877": {
+  "/docs/module1/chapter1-899": {
     "__comp": "17896441",
     "content": "c25a8be8"
   },
-  "/humanoid-robotics-book/docs/module1/chapter2-259": {
+  "/docs/module1/chapter2-01c": {
     "__comp": "17896441",
     "content": "e8ee774b"
   },
-  "/humanoid-robotics-book/docs/module1/chapter3-695": {
+  "/docs/module1/chapter3-1b6": {
     "__comp": "17896441",
     "content": "44c1e677"
   },
-  "/humanoid-robotics-book/docs/module1/mini-project-e86": {
+  "/docs/module1/mini-project-55b": {
     "__comp": "17896441",
     "content": "2099854f"
   },
-  "/humanoid-robotics-book/docs/module1/practical-demos-31c": {
+  "/docs/module1/practical-demos-b1f": {
     "__comp": "17896441",
     "content": "726cfe2c"
   },
-  "/humanoid-robotics-book/docs/module1/quiz-1a1": {
+  "/docs/module1/quiz-d19": {
     "__comp": "17896441",
     "content": "43a63e0e"
   },
-  "/humanoid-robotics-book/docs/module1/summary-4a4": {
+  "/docs/module1/summary-b64": {
     "__comp": "17896441",
     "content": "1fb05d8c"
   },
-  "/humanoid-robotics-book/docs/module2/chapter1-d8f": {
+  "/docs/module2/chapter1-e7f": {
     "__comp": "17896441",
     "content": "71260612"
   },
-  "/humanoid-robotics-book/docs/module2/chapter2-07a": {
+  "/docs/module2/chapter2-ba8": {
     "__comp": "17896441",
     "content": "832badc6"
   },
-  "/humanoid-robotics-book/docs/module2/chapter3-def": {
+  "/docs/module2/chapter3-b82": {
     "__comp": "17896441",
     "content": "db5e1aba"
   },
-  "/humanoid-robotics-book/docs/module2/mini-project-c8b": {
+  "/docs/module2/mini-project-c34": {
     "__comp": "17896441",
     "content": "4e3a961d"
   },
-  "/humanoid-robotics-book/docs/module2/practical-demos-913": {
+  "/docs/module2/practical-demos-ec1": {
     "__comp": "17896441",
     "content": "70bc8a6f"
   },
-  "/humanoid-robotics-book/docs/module2/quiz-5bc": {
+  "/docs/module2/quiz-1ee": {
     "__comp": "17896441",
     "content": "b3b09fc8"
   },
-  "/humanoid-robotics-book/docs/module2/summary-a13": {
+  "/docs/module2/summary-869": {
     "__comp": "17896441",
     "content": "371ef77b"
   },
-  "/humanoid-robotics-book/docs/module3/chapter1-e78": {
+  "/docs/module3/chapter1-ce2": {
     "__comp": "17896441",
     "content": "012cb2e2"
   },
-  "/humanoid-robotics-book/docs/module3/chapter2-15f": {
+  "/docs/module3/chapter2-db1": {
     "__comp": "17896441",
     "content": "6f631317"
   },
-  "/humanoid-robotics-book/docs/module3/chapter3-d1e": {
+  "/docs/module3/chapter3-491": {
     "__comp": "17896441",
     "content": "b7331908"
   },
-  "/humanoid-robotics-book/docs/module3/chapter4-d4f": {
+  "/docs/module3/chapter4-f23": {
     "__comp": "17896441",
     "content": "be63eca0"
   },
-  "/humanoid-robotics-book/docs/module3/mini-project-9f1": {
+  "/docs/module3/mini-project-5d9": {
     "__comp": "17896441",
     "content": "aa37ca7e"
   },
-  "/humanoid-robotics-book/docs/module3/practical-demos-246": {
+  "/docs/module3/practical-demos-a60": {
     "__comp": "17896441",
     "content": "8948b8cc"
   },
-  "/humanoid-robotics-book/docs/module3/quiz-014": {
+  "/docs/module3/quiz-ed5": {
     "__comp": "17896441",
     "content": "e298b76e"
   },
-  "/humanoid-robotics-book/docs/module3/summary-e91": {
+  "/docs/module3/summary-9f4": {
     "__comp": "17896441",
     "content": "eac2ef45"
   },
-  "/humanoid-robotics-book/docs/module4/chapter1-84f": {
+  "/docs/module4/chapter1-645": {
     "__comp": "17896441",
     "content": "bb3c4e75"
   },
-  "/humanoid-robotics-book/docs/module4/chapter2-9c1": {
+  "/docs/module4/chapter2-68e": {
     "__comp": "17896441",
     "content": "fbb6e396"
   },
-  "/humanoid-robotics-book/docs/module4/chapter3-38e": {
+  "/docs/module4/chapter3-6d1": {
     "__comp": "17896441",
     "content": "b8e9e960"
   },
-  "/humanoid-robotics-book/docs/module4/chapter4-4e0": {
+  "/docs/module4/chapter4-104": {
     "__comp": "17896441",
     "content": "22928252"
   },
-  "/humanoid-robotics-book/docs/module4/mini-project-785": {
+  "/docs/module4/mini-project-5d6": {
     "__comp": "17896441",
     "content": "23dc4e0a"
   },
-  "/humanoid-robotics-book/docs/module4/practical-demos-4c3": {
+  "/docs/module4/practical-demos-7b4": {
     "__comp": "17896441",
     "content": "555fc56d"
   },
-  "/humanoid-robotics-book/docs/module4/quiz-06f": {
+  "/docs/module4/quiz-563": {
     "__comp": "17896441",
     "content": "46f3cd20"
   },
-  "/humanoid-robotics-book/docs/module4/summary-c22": {
+  "/docs/module4/summary-354": {
     "__comp": "17896441",
     "content": "88c65e52"
   },
-  "/humanoid-robotics-book/-943": {
+  "/-36e": {
     "__comp": "c4f5d8e4",
     "__context": {
       "plugin": "8bef4b98"

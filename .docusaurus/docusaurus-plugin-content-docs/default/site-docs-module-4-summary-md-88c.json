@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/summary.md",
   "sourceDirName": "module4",
   "slug": "/module4/summary",
-  "permalink": "/humanoid-robotics-book/docs/module4/summary",
+  "permalink": "/docs/module4/summary",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 4: Natural Language Robot Control",
-    "permalink": "/humanoid-robotics-book/docs/module4/chapter4"
+    "permalink": "/docs/module4/chapter4"
   },
   "next": {
     "title": "Module 4 Quiz: Vision-Language-Action Robotics",
-    "permalink": "/humanoid-robotics-book/docs/module4/quiz"
+    "permalink": "/docs/module4/quiz"
   }
 }

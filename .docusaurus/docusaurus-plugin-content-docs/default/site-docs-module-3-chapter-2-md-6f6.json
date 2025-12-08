@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/chapter2.md",
   "sourceDirName": "module3",
   "slug": "/module3/chapter2",
-  "permalink": "/humanoid-robotics-book/docs/module3/chapter2",
+  "permalink": "/docs/module3/chapter2",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 1: Perception, Mapping, and Navigation",
-    "permalink": "/humanoid-robotics-book/docs/module3/chapter1"
+    "permalink": "/docs/module3/chapter1"
   },
   "next": {
     "title": "Chapter 3: Nav2 Humanoid Control",
-    "permalink": "/humanoid-robotics-book/docs/module3/chapter3"
+    "permalink": "/docs/module3/chapter3"
   }
 }

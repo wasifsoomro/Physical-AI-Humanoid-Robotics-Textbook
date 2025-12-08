@@ -5,7 +5,7 @@
   "source": "@site/docs/module4/chapter4.md",
   "sourceDirName": "module4",
   "slug": "/module4/chapter4",
-  "permalink": "/humanoid-robotics-book/docs/module4/chapter4",
+  "permalink": "/docs/module4/chapter4",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 3: Scene Understanding",
-    "permalink": "/humanoid-robotics-book/docs/module4/chapter3"
+    "permalink": "/docs/module4/chapter3"
   },
   "next": {
     "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
-    "permalink": "/humanoid-robotics-book/docs/module4/summary"
+    "permalink": "/docs/module4/summary"
   }
 }

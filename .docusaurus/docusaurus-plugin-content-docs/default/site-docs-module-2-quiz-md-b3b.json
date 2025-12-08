@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/quiz.md",
   "sourceDirName": "module2",
   "slug": "/module2/quiz",
-  "permalink": "/humanoid-robotics-book/docs/module2/quiz",
+  "permalink": "/docs/module2/quiz",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
-    "permalink": "/humanoid-robotics-book/docs/module2/summary"
+    "permalink": "/docs/module2/summary"
   },
   "next": {
     "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
-    "permalink": "/humanoid-robotics-book/docs/module2/mini-project"
+    "permalink": "/docs/module2/mini-project"
   }
 }

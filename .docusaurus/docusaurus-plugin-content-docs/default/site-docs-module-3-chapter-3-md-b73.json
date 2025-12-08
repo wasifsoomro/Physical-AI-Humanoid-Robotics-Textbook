@@ -5,7 +5,7 @@
   "source": "@site/docs/module3/chapter3.md",
   "sourceDirName": "module3",
   "slug": "/module3/chapter3",
-  "permalink": "/humanoid-robotics-book/docs/module3/chapter3",
+  "permalink": "/docs/module3/chapter3",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
-    "permalink": "/humanoid-robotics-book/docs/module3/chapter2"
+    "permalink": "/docs/module3/chapter2"
   },
   "next": {
     "title": "Chapter 4: Synthetic Data Generation",
-    "permalink": "/humanoid-robotics-book/docs/module3/chapter4"
+    "permalink": "/docs/module3/chapter4"
   }
 }

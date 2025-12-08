@@ -5,7 +5,7 @@
   "source": "@site/docs/module1/mini-project.md",
   "sourceDirName": "module1",
   "slug": "/module1/mini-project",
-  "permalink": "/humanoid-robotics-book/docs/module1/mini-project",
+  "permalink": "/docs/module1/mini-project",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 1 Quiz: ROS 2 Fundamentals",
-    "permalink": "/humanoid-robotics-book/docs/module1/quiz"
+    "permalink": "/docs/module1/quiz"
   },
   "next": {
     "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
-    "permalink": "/humanoid-robotics-book/docs/module1/practical-demos"
+    "permalink": "/docs/module1/practical-demos"
   }
 }

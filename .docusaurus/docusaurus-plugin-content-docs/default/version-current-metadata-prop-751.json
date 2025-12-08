@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Introduction to Physical AI & Humanoid Robotics",
-        "href": "/humanoid-robotics-book/docs/intro",
+        "href": "/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -23,49 +23,49 @@
           {
             "type": "link",
             "label": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
-            "href": "/humanoid-robotics-book/docs/module1/chapter1",
+            "href": "/docs/module1/chapter1",
             "docId": "module1/chapter1",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 2: Understanding URDF and TF for Humanoids",
-            "href": "/humanoid-robotics-book/docs/module1/chapter2",
+            "href": "/docs/module1/chapter2",
             "docId": "module1/chapter2",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 3: Joint Control Examples",
-            "href": "/humanoid-robotics-book/docs/module1/chapter3",
+            "href": "/docs/module1/chapter3",
             "docId": "module1/chapter3",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
-            "href": "/humanoid-robotics-book/docs/module1/summary",
+            "href": "/docs/module1/summary",
             "docId": "module1/summary",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 1 Quiz: ROS 2 Fundamentals",
-            "href": "/humanoid-robotics-book/docs/module1/quiz",
+            "href": "/docs/module1/quiz",
             "docId": "module1/quiz",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 1 Mini-Project: Humanoid Arm Controller",
-            "href": "/humanoid-robotics-book/docs/module1/mini-project",
+            "href": "/docs/module1/mini-project",
             "docId": "module1/mini-project",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 1 Practical Demos: ROS 2 Fundamentals",
-            "href": "/humanoid-robotics-book/docs/module1/practical-demos",
+            "href": "/docs/module1/practical-demos",
             "docId": "module1/practical-demos",
             "unlisted": false
           }
@@ -80,49 +80,49 @@
           {
             "type": "link",
             "label": "Chapter 1: Humanoid URDF in Gazebo",
-            "href": "/humanoid-robotics-book/docs/module2/chapter1",
+            "href": "/docs/module2/chapter1",
             "docId": "module2/chapter1",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 2: Physics and Sensors",
-            "href": "/humanoid-robotics-book/docs/module2/chapter2",
+            "href": "/docs/module2/chapter2",
             "docId": "module2/chapter2",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 3: ROS-Gazebo Bridge",
-            "href": "/humanoid-robotics-book/docs/module2/chapter3",
+            "href": "/docs/module2/chapter3",
             "docId": "module2/chapter3",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
-            "href": "/humanoid-robotics-book/docs/module2/summary",
+            "href": "/docs/module2/summary",
             "docId": "module2/summary",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 2 Quiz: Digital Twin Simulation",
-            "href": "/humanoid-robotics-book/docs/module2/quiz",
+            "href": "/docs/module2/quiz",
             "docId": "module2/quiz",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
-            "href": "/humanoid-robotics-book/docs/module2/mini-project",
+            "href": "/docs/module2/mini-project",
             "docId": "module2/mini-project",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 2 Practical Demos: Digital Twin Simulation",
-            "href": "/humanoid-robotics-book/docs/module2/practical-demos",
+            "href": "/docs/module2/practical-demos",
             "docId": "module2/practical-demos",
             "unlisted": false
           }
@@ -137,28 +137,28 @@
           {
             "type": "link",
             "label": "Chapter 1: Perception, Mapping, and Navigation",
-            "href": "/humanoid-robotics-book/docs/module3/chapter1",
+            "href": "/docs/module3/chapter1",
             "docId": "module3/chapter1",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
-            "href": "/humanoid-robotics-book/docs/module3/chapter2",
+            "href": "/docs/module3/chapter2",
             "docId": "module3/chapter2",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 3: Nav2 Humanoid Control",
-            "href": "/humanoid-robotics-book/docs/module3/chapter3",
+            "href": "/docs/module3/chapter3",
             "docId": "module3/chapter3",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 4: Synthetic Data Generation",
-            "href": "/humanoid-robotics-book/docs/module3/chapter4",
+            "href": "/docs/module3/chapter4",
             "docId": "module3/chapter4",
             "unlisted": false
           }
@@ -173,56 +173,56 @@
           {
             "type": "link",
             "label": "Chapter 1: Understanding Vision-Language-Action Models",
-            "href": "/humanoid-robotics-book/docs/module4/chapter1",
+            "href": "/docs/module4/chapter1",
             "docId": "module4/chapter1",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 2: Natural Language Processing for Robotics",
-            "href": "/humanoid-robotics-book/docs/module4/chapter2",
+            "href": "/docs/module4/chapter2",
             "docId": "module4/chapter2",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 3: Action Planning and Execution",
-            "href": "/humanoid-robotics-book/docs/module4/chapter3",
+            "href": "/docs/module4/chapter3",
             "docId": "module4/chapter3",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Chapter 4: Human-Robot Interaction and Communication",
-            "href": "/humanoid-robotics-book/docs/module4/chapter4",
+            "href": "/docs/module4/chapter4",
             "docId": "module4/chapter4",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
-            "href": "/humanoid-robotics-book/docs/module4/summary",
+            "href": "/docs/module4/summary",
             "docId": "module4/summary",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 4 Quiz: Vision-Language-Action Robotics",
-            "href": "/humanoid-robotics-book/docs/module4/quiz",
+            "href": "/docs/module4/quiz",
             "docId": "module4/quiz",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
-            "href": "/humanoid-robotics-book/docs/module4/mini-project",
+            "href": "/docs/module4/mini-project",
             "docId": "module4/mini-project",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Module 4 Practical Demos: Vision-Language-Action Robotics",
-            "href": "/humanoid-robotics-book/docs/module4/practical-demos",
+            "href": "/docs/module4/practical-demos",
             "docId": "module4/practical-demos",
             "unlisted": false
           }

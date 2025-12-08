@@ -5,7 +5,7 @@
   "source": "@site/docs/module1/quiz.md",
   "sourceDirName": "module1",
   "slug": "/module1/quiz",
-  "permalink": "/humanoid-robotics-book/docs/module1/quiz",
+  "permalink": "/docs/module1/quiz",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
-    "permalink": "/humanoid-robotics-book/docs/module1/summary"
+    "permalink": "/docs/module1/summary"
   },
   "next": {
     "title": "Module 1 Mini-Project: Humanoid Arm Controller",
-    "permalink": "/humanoid-robotics-book/docs/module1/mini-project"
+    "permalink": "/docs/module1/mini-project"
   }
 }

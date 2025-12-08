@@ -9,10 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/humanoid-robotics-book/docs",
-          "tagsPath": "/humanoid-robotics-book/docs/tags",
-          "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs",
-          "editUrlLocalized": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
+          "path": "/docs",
+          "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "D:\\Web 3 Metavers and GenAI\\Wasif\\My Hackathon\\humanoid-robotics-book\\sidebars.js",
@@ -26,17 +24,16 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/humanoid-robotics-book/docs/intro",
+              "permalink": "/docs/intro",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter1"
+                "permalink": "/docs/module1/chapter1"
               }
             },
             {
@@ -46,21 +43,20 @@
               "source": "@site/docs/module1/chapter1.md",
               "sourceDirName": "module1",
               "slug": "/module1/chapter1",
-              "permalink": "/humanoid-robotics-book/docs/module1/chapter1",
+              "permalink": "/docs/module1/chapter1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/chapter1.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Introduction to Physical AI & Humanoid Robotics",
-                "permalink": "/humanoid-robotics-book/docs/intro"
+                "permalink": "/docs/intro"
               },
               "next": {
                 "title": "Understanding URDF and TF for Humanoids",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter2"
+                "permalink": "/docs/module1/chapter2"
               }
             },
             {
@@ -70,10 +66,9 @@
               "source": "@site/docs/module1/chapter2.md",
               "sourceDirName": "module1",
               "slug": "/module1/chapter2",
-              "permalink": "/humanoid-robotics-book/docs/module1/chapter2",
+              "permalink": "/docs/module1/chapter2",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/chapter2.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -83,11 +78,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter1"
+                "permalink": "/docs/module1/chapter1"
               },
               "next": {
                 "title": "Joint Control Examples",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter3"
+                "permalink": "/docs/module1/chapter3"
               }
             },
             {
@@ -97,10 +92,9 @@
               "source": "@site/docs/module1/chapter3.md",
               "sourceDirName": "module1",
               "slug": "/module1/chapter3",
-              "permalink": "/humanoid-robotics-book/docs/module1/chapter3",
+              "permalink": "/docs/module1/chapter3",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/chapter3.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -110,11 +104,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Understanding URDF and TF for Humanoids",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter2"
+                "permalink": "/docs/module1/chapter2"
               },
               "next": {
                 "title": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
-                "permalink": "/humanoid-robotics-book/docs/module1/summary"
+                "permalink": "/docs/module1/summary"
               }
             },
             {
@@ -124,10 +118,9 @@
               "source": "@site/docs/module1/mini-project.md",
               "sourceDirName": "module1",
               "slug": "/module1/mini-project",
-              "permalink": "/humanoid-robotics-book/docs/module1/mini-project",
+              "permalink": "/docs/module1/mini-project",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/mini-project.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -137,11 +130,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1 Quiz: ROS 2 Fundamentals",
-                "permalink": "/humanoid-robotics-book/docs/module1/quiz"
+                "permalink": "/docs/module1/quiz"
               },
               "next": {
                 "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
-                "permalink": "/humanoid-robotics-book/docs/module1/practical-demos"
+                "permalink": "/docs/module1/practical-demos"
               }
             },
             {
@@ -151,10 +144,9 @@
               "source": "@site/docs/module1/practical-demos.md",
               "sourceDirName": "module1",
               "slug": "/module1/practical-demos",
-              "permalink": "/humanoid-robotics-book/docs/module1/practical-demos",
+              "permalink": "/docs/module1/practical-demos",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/practical-demos.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -164,11 +156,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1 Mini-Project: Humanoid Arm Controller",
-                "permalink": "/humanoid-robotics-book/docs/module1/mini-project"
+                "permalink": "/docs/module1/mini-project"
               },
               "next": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter1"
+                "permalink": "/docs/module2/chapter1"
               }
             },
             {
@@ -178,10 +170,9 @@
               "source": "@site/docs/module1/quiz.md",
               "sourceDirName": "module1",
               "slug": "/module1/quiz",
-              "permalink": "/humanoid-robotics-book/docs/module1/quiz",
+              "permalink": "/docs/module1/quiz",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/quiz.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -191,11 +182,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1 Summary: The Robotic Nervous System (ROS 2)",
-                "permalink": "/humanoid-robotics-book/docs/module1/summary"
+                "permalink": "/docs/module1/summary"
               },
               "next": {
                 "title": "Module 1 Mini-Project: Humanoid Arm Controller",
-                "permalink": "/humanoid-robotics-book/docs/module1/mini-project"
+                "permalink": "/docs/module1/mini-project"
               }
             },
             {
@@ -205,10 +196,9 @@
               "source": "@site/docs/module1/summary.md",
               "sourceDirName": "module1",
               "slug": "/module1/summary",
-              "permalink": "/humanoid-robotics-book/docs/module1/summary",
+              "permalink": "/docs/module1/summary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module1/summary.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -218,11 +208,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Joint Control Examples",
-                "permalink": "/humanoid-robotics-book/docs/module1/chapter3"
+                "permalink": "/docs/module1/chapter3"
               },
               "next": {
                 "title": "Module 1 Quiz: ROS 2 Fundamentals",
-                "permalink": "/humanoid-robotics-book/docs/module1/quiz"
+                "permalink": "/docs/module1/quiz"
               }
             },
             {
@@ -232,21 +222,20 @@
               "source": "@site/docs/module2/chapter1.md",
               "sourceDirName": "module2",
               "slug": "/module2/chapter1",
-              "permalink": "/humanoid-robotics-book/docs/module2/chapter1",
+              "permalink": "/docs/module2/chapter1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/chapter1.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 1 Practical Demos: ROS 2 Fundamentals",
-                "permalink": "/humanoid-robotics-book/docs/module1/practical-demos"
+                "permalink": "/docs/module1/practical-demos"
               },
               "next": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter2"
+                "permalink": "/docs/module2/chapter2"
               }
             },
             {
@@ -256,21 +245,20 @@
               "source": "@site/docs/module2/chapter2.md",
               "sourceDirName": "module2",
               "slug": "/module2/chapter2",
-              "permalink": "/humanoid-robotics-book/docs/module2/chapter2",
+              "permalink": "/docs/module2/chapter2",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/chapter2.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter1"
+                "permalink": "/docs/module2/chapter1"
               },
               "next": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter3"
+                "permalink": "/docs/module2/chapter3"
               }
             },
             {
@@ -280,21 +268,20 @@
               "source": "@site/docs/module2/chapter3.md",
               "sourceDirName": "module2",
               "slug": "/module2/chapter3",
-              "permalink": "/humanoid-robotics-book/docs/module2/chapter3",
+              "permalink": "/docs/module2/chapter3",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/chapter3.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter2"
+                "permalink": "/docs/module2/chapter2"
               },
               "next": {
                 "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/summary"
+                "permalink": "/docs/module2/summary"
               }
             },
             {
@@ -304,10 +291,9 @@
               "source": "@site/docs/module2/mini-project.md",
               "sourceDirName": "module2",
               "slug": "/module2/mini-project",
-              "permalink": "/humanoid-robotics-book/docs/module2/mini-project",
+              "permalink": "/docs/module2/mini-project",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/mini-project.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -317,11 +303,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2 Quiz: Digital Twin Simulation",
-                "permalink": "/humanoid-robotics-book/docs/module2/quiz"
+                "permalink": "/docs/module2/quiz"
               },
               "next": {
                 "title": "Module 2 Practical Demos: Digital Twin Simulation",
-                "permalink": "/humanoid-robotics-book/docs/module2/practical-demos"
+                "permalink": "/docs/module2/practical-demos"
               }
             },
             {
@@ -331,10 +317,9 @@
               "source": "@site/docs/module2/practical-demos.md",
               "sourceDirName": "module2",
               "slug": "/module2/practical-demos",
-              "permalink": "/humanoid-robotics-book/docs/module2/practical-demos",
+              "permalink": "/docs/module2/practical-demos",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/practical-demos.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -344,11 +329,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
-                "permalink": "/humanoid-robotics-book/docs/module2/mini-project"
+                "permalink": "/docs/module2/mini-project"
               },
               "next": {
                 "title": "Chapter 1: Perception, Mapping, and Navigation",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter1"
+                "permalink": "/docs/module3/chapter1"
               }
             },
             {
@@ -358,10 +343,9 @@
               "source": "@site/docs/module2/quiz.md",
               "sourceDirName": "module2",
               "slug": "/module2/quiz",
-              "permalink": "/humanoid-robotics-book/docs/module2/quiz",
+              "permalink": "/docs/module2/quiz",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/quiz.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -371,11 +355,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2 Summary: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/summary"
+                "permalink": "/docs/module2/summary"
               },
               "next": {
                 "title": "Module 2 Mini-Project: Advanced Humanoid Simulation with Sensors",
-                "permalink": "/humanoid-robotics-book/docs/module2/mini-project"
+                "permalink": "/docs/module2/mini-project"
               }
             },
             {
@@ -385,10 +369,9 @@
               "source": "@site/docs/module2/summary.md",
               "sourceDirName": "module2",
               "slug": "/module2/summary",
-              "permalink": "/humanoid-robotics-book/docs/module2/summary",
+              "permalink": "/docs/module2/summary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module2/summary.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -398,11 +381,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-                "permalink": "/humanoid-robotics-book/docs/module2/chapter3"
+                "permalink": "/docs/module2/chapter3"
               },
               "next": {
                 "title": "Module 2 Quiz: Digital Twin Simulation",
-                "permalink": "/humanoid-robotics-book/docs/module2/quiz"
+                "permalink": "/docs/module2/quiz"
               }
             },
             {
@@ -412,10 +395,9 @@
               "source": "@site/docs/module3/chapter1.md",
               "sourceDirName": "module3",
               "slug": "/module3/chapter1",
-              "permalink": "/humanoid-robotics-book/docs/module3/chapter1",
+              "permalink": "/docs/module3/chapter1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/chapter1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -425,11 +407,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 2 Practical Demos: Digital Twin Simulation",
-                "permalink": "/humanoid-robotics-book/docs/module2/practical-demos"
+                "permalink": "/docs/module2/practical-demos"
               },
               "next": {
                 "title": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter2"
+                "permalink": "/docs/module3/chapter2"
               }
             },
             {
@@ -439,10 +421,9 @@
               "source": "@site/docs/module3/chapter2.md",
               "sourceDirName": "module3",
               "slug": "/module3/chapter2",
-              "permalink": "/humanoid-robotics-book/docs/module3/chapter2",
+              "permalink": "/docs/module3/chapter2",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/chapter2.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -452,11 +433,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 1: Perception, Mapping, and Navigation",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter1"
+                "permalink": "/docs/module3/chapter1"
               },
               "next": {
                 "title": "Chapter 3: Nav2 Humanoid Control",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter3"
+                "permalink": "/docs/module3/chapter3"
               }
             },
             {
@@ -466,10 +447,9 @@
               "source": "@site/docs/module3/chapter3.md",
               "sourceDirName": "module3",
               "slug": "/module3/chapter3",
-              "permalink": "/humanoid-robotics-book/docs/module3/chapter3",
+              "permalink": "/docs/module3/chapter3",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/chapter3.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -479,11 +459,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter2"
+                "permalink": "/docs/module3/chapter2"
               },
               "next": {
                 "title": "Chapter 4: Synthetic Data Generation",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter4"
+                "permalink": "/docs/module3/chapter4"
               }
             },
             {
@@ -493,10 +473,9 @@
               "source": "@site/docs/module3/chapter4.md",
               "sourceDirName": "module3",
               "slug": "/module3/chapter4",
-              "permalink": "/humanoid-robotics-book/docs/module3/chapter4",
+              "permalink": "/docs/module3/chapter4",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/chapter4.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -506,11 +485,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 3: Nav2 Humanoid Control",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter3"
+                "permalink": "/docs/module3/chapter3"
               },
               "next": {
                 "title": "Chapter 1: Vision-Language-Action (VLA) Architecture",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter1"
+                "permalink": "/docs/module4/chapter1"
               }
             },
             {
@@ -520,10 +499,9 @@
               "source": "@site/docs/module3/mini-project.md",
               "sourceDirName": "module3",
               "slug": "/module3/mini-project",
-              "permalink": "/humanoid-robotics-book/docs/module3/mini-project",
+              "permalink": "/docs/module3/mini-project",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/mini-project.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -538,10 +516,9 @@
               "source": "@site/docs/module3/practical-demos.md",
               "sourceDirName": "module3",
               "slug": "/module3/practical-demos",
-              "permalink": "/humanoid-robotics-book/docs/module3/practical-demos",
+              "permalink": "/docs/module3/practical-demos",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/practical-demos.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -556,10 +533,9 @@
               "source": "@site/docs/module3/quiz.md",
               "sourceDirName": "module3",
               "slug": "/module3/quiz",
-              "permalink": "/humanoid-robotics-book/docs/module3/quiz",
+              "permalink": "/docs/module3/quiz",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/quiz.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -574,10 +550,9 @@
               "source": "@site/docs/module3/summary.md",
               "sourceDirName": "module3",
               "slug": "/module3/summary",
-              "permalink": "/humanoid-robotics-book/docs/module3/summary",
+              "permalink": "/docs/module3/summary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module3/summary.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -592,10 +567,9 @@
               "source": "@site/docs/module4/chapter1.md",
               "sourceDirName": "module4",
               "slug": "/module4/chapter1",
-              "permalink": "/humanoid-robotics-book/docs/module4/chapter1",
+              "permalink": "/docs/module4/chapter1",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/chapter1.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -605,11 +579,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 4: Synthetic Data Generation",
-                "permalink": "/humanoid-robotics-book/docs/module3/chapter4"
+                "permalink": "/docs/module3/chapter4"
               },
               "next": {
                 "title": "Chapter 2: Speech → LLM → Action Pipeline",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter2"
+                "permalink": "/docs/module4/chapter2"
               }
             },
             {
@@ -619,10 +593,9 @@
               "source": "@site/docs/module4/chapter2.md",
               "sourceDirName": "module4",
               "slug": "/module4/chapter2",
-              "permalink": "/humanoid-robotics-book/docs/module4/chapter2",
+              "permalink": "/docs/module4/chapter2",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/chapter2.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -632,11 +605,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 1: Vision-Language-Action (VLA) Architecture",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter1"
+                "permalink": "/docs/module4/chapter1"
               },
               "next": {
                 "title": "Chapter 3: Scene Understanding",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter3"
+                "permalink": "/docs/module4/chapter3"
               }
             },
             {
@@ -646,10 +619,9 @@
               "source": "@site/docs/module4/chapter3.md",
               "sourceDirName": "module4",
               "slug": "/module4/chapter3",
-              "permalink": "/humanoid-robotics-book/docs/module4/chapter3",
+              "permalink": "/docs/module4/chapter3",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/chapter3.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -659,11 +631,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 2: Speech → LLM → Action Pipeline",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter2"
+                "permalink": "/docs/module4/chapter2"
               },
               "next": {
                 "title": "Chapter 4: Natural Language Robot Control",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter4"
+                "permalink": "/docs/module4/chapter4"
               }
             },
             {
@@ -673,10 +645,9 @@
               "source": "@site/docs/module4/chapter4.md",
               "sourceDirName": "module4",
               "slug": "/module4/chapter4",
-              "permalink": "/humanoid-robotics-book/docs/module4/chapter4",
+              "permalink": "/docs/module4/chapter4",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/chapter4.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -686,11 +657,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 3: Scene Understanding",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter3"
+                "permalink": "/docs/module4/chapter3"
               },
               "next": {
                 "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
-                "permalink": "/humanoid-robotics-book/docs/module4/summary"
+                "permalink": "/docs/module4/summary"
               }
             },
             {
@@ -700,10 +671,9 @@
               "source": "@site/docs/module4/mini-project.md",
               "sourceDirName": "module4",
               "slug": "/module4/mini-project",
-              "permalink": "/humanoid-robotics-book/docs/module4/mini-project",
+              "permalink": "/docs/module4/mini-project",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/mini-project.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 7,
@@ -713,11 +683,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 4 Quiz: Vision-Language-Action Robotics",
-                "permalink": "/humanoid-robotics-book/docs/module4/quiz"
+                "permalink": "/docs/module4/quiz"
               },
               "next": {
                 "title": "Module 4 Practical Demos: Vision-Language-Action Robotics",
-                "permalink": "/humanoid-robotics-book/docs/module4/practical-demos"
+                "permalink": "/docs/module4/practical-demos"
               }
             },
             {
@@ -727,10 +697,9 @@
               "source": "@site/docs/module4/practical-demos.md",
               "sourceDirName": "module4",
               "slug": "/module4/practical-demos",
-              "permalink": "/humanoid-robotics-book/docs/module4/practical-demos",
+              "permalink": "/docs/module4/practical-demos",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/practical-demos.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -740,7 +709,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
-                "permalink": "/humanoid-robotics-book/docs/module4/mini-project"
+                "permalink": "/docs/module4/mini-project"
               }
             },
             {
@@ -750,10 +719,9 @@
               "source": "@site/docs/module4/quiz.md",
               "sourceDirName": "module4",
               "slug": "/module4/quiz",
-              "permalink": "/humanoid-robotics-book/docs/module4/quiz",
+              "permalink": "/docs/module4/quiz",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/quiz.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -763,11 +731,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
-                "permalink": "/humanoid-robotics-book/docs/module4/summary"
+                "permalink": "/docs/module4/summary"
               },
               "next": {
                 "title": "Module 4 Mini-Project: Complete VLA Humanoid Robot System",
-                "permalink": "/humanoid-robotics-book/docs/module4/mini-project"
+                "permalink": "/docs/module4/mini-project"
               }
             },
             {
@@ -777,10 +745,9 @@
               "source": "@site/docs/module4/summary.md",
               "sourceDirName": "module4",
               "slug": "/module4/summary",
-              "permalink": "/humanoid-robotics-book/docs/module4/summary",
+              "permalink": "/docs/module4/summary",
               "draft": false,
               "unlisted": false,
-              "editUrl": "https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/docs/module4/summary.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -790,11 +757,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Chapter 4: Natural Language Robot Control",
-                "permalink": "/humanoid-robotics-book/docs/module4/chapter4"
+                "permalink": "/docs/module4/chapter4"
               },
               "next": {
                 "title": "Module 4 Quiz: Vision-Language-Action Robotics",
-                "permalink": "/humanoid-robotics-book/docs/module4/quiz"
+                "permalink": "/docs/module4/quiz"
               }
             }
           ],
@@ -811,15 +778,21 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "module1/chapter1"
+                    "id": "module1/chapter1",
+                    "label": "Chapter 1: The Robotic Nervous System (ROS 2) - Introduction and Core Concepts",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module1/chapter2"
+                    "id": "module1/chapter2",
+                    "label": "Chapter 2: Understanding URDF and TF for Humanoids",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module1/chapter3"
+                    "id": "module1/chapter3",
+                    "label": "Chapter 3: Joint Control Examples",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
@@ -847,15 +820,21 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "module2/chapter1"
+                    "id": "module2/chapter1",
+                    "label": "Chapter 1: Humanoid URDF in Gazebo",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module2/chapter2"
+                    "id": "module2/chapter2",
+                    "label": "Chapter 2: Physics and Sensors",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module2/chapter3"
+                    "id": "module2/chapter3",
+                    "label": "Chapter 3: ROS-Gazebo Bridge",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
@@ -883,19 +862,27 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "module3/chapter1"
+                    "id": "module3/chapter1",
+                    "label": "Chapter 1: Perception, Mapping, and Navigation",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module3/chapter2"
+                    "id": "module3/chapter2",
+                    "label": "Chapter 2: Visual SLAM (Simultaneous Localization and Mapping)",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module3/chapter3"
+                    "id": "module3/chapter3",
+                    "label": "Chapter 3: Nav2 Humanoid Control",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module3/chapter4"
+                    "id": "module3/chapter4",
+                    "label": "Chapter 4: Synthetic Data Generation",
+                    "translatable": true
                   }
                 ],
                 "collapsed": true,
@@ -907,19 +894,27 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "module4/chapter1"
+                    "id": "module4/chapter1",
+                    "label": "Chapter 1: Understanding Vision-Language-Action Models",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module4/chapter2"
+                    "id": "module4/chapter2",
+                    "label": "Chapter 2: Natural Language Processing for Robotics",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module4/chapter3"
+                    "id": "module4/chapter3",
+                    "label": "Chapter 3: Action Planning and Execution",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
-                    "id": "module4/chapter4"
+                    "id": "module4/chapter4",
+                    "label": "Chapter 4: Human-Robot Interaction and Communication",
+                    "translatable": true
                   },
                   {
                     "type": "doc",
@@ -953,7 +948,7 @@
       "blogPosts": [],
       "blogListPaginated": [],
       "blogTags": {},
-      "blogTagsListPath": "/humanoid-robotics-book/blog/tags",
+      "blogTagsListPath": "/blog/tags",
       "blogTagsPaginated": []
     }
   },
@@ -961,7 +956,7 @@
     "default": [
       {
         "type": "jsx",
-        "permalink": "/humanoid-robotics-book/",
+        "permalink": "/",
         "source": "@site/src/pages/index.js"
       }
     ]

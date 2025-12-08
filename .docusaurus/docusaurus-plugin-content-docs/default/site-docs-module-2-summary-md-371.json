@@ -5,7 +5,7 @@
   "source": "@site/docs/module2/summary.md",
   "sourceDirName": "module2",
   "slug": "/module2/summary",
-  "permalink": "/humanoid-robotics-book/docs/module2/summary",
+  "permalink": "/docs/module2/summary",
   "draft": false,
   "unlisted": false,
   "tags": [],
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Module 2: Digital Twin Simulation (Gazebo + Unity)",
-    "permalink": "/humanoid-robotics-book/docs/module2/chapter3"
+    "permalink": "/docs/module2/chapter3"
   },
   "next": {
     "title": "Module 2 Quiz: Digital Twin Simulation",
-    "permalink": "/humanoid-robotics-book/docs/module2/quiz"
+    "permalink": "/docs/module2/quiz"
   }
 }
