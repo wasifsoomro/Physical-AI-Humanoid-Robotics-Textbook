@@ -18,13 +18,22 @@ graph LR
     G -->|Feedback| F
     G -->|Result| F
 
-    style A fill:#e1f5fe
-    style C fill:#e1f5fe
-    style D fill:#fff3e0
-    style F fill:#f3e5f5
-    style G fill:#e8f5e8
-    style B fill:#f1f8e9
-    style E fill:#e8f5f9
+    A:::styleA
+    C:::styleC
+    D:::styleD
+    F:::styleF
+    G:::styleG
+    B:::styleB
+    E:::styleE
+
+%% CSS classes for styling
+    classDef styleA fill:#e1f5fe;
+    classDef styleC fill:#e1f5fe;
+    classDef styleD fill:#fff3e0;
+    classDef styleF fill:#f3e5f5;
+    classDef styleG fill:#e8f5e8;
+    classDef styleB fill:#f1f8e9;
+    classDef styleE fill:#e8f5f9;
 ```
 
 This diagram shows the three main communication patterns in ROS 2: Topics (publish/subscribe), Services (request/response), and Actions (goal-based with feedback).

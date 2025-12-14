@@ -1,0 +1,396 @@
+openapi: 3.0.3
+info:
+  title: RAG Chatbot API for Docusaurus Book
+  description: API for the Retrieval-Augmented Generation chatbot integrated with the Docusaurus book
+  version: 1.0.0
+  contact:
+    name: Humanoid Robotics Book Team
+    email: support@humanoid-robotics-book.example.com
+
+servers:
+  - url: http://localhost:8000
+    description: Development server
+  - url: https://physical-ai-humanoid-robotics-textb-phi.vercel.app/
+    description: Production server
+
+paths:
+  /api/chat:
+    post:
+      summary: Process user message and return AI response
+      description: Send a user message and receive an AI-generated response based on book content
+      operationId: processChatMessage
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChatRequest'
+      responses:
+        '200':
+          description: Successful response with AI-generated answer
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChatResponse'
+        '400':
+          description: Invalid request format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      tags:
+        - Chat
+
+  /api/retrieve:
+    post:
+      summary: Retrieve relevant content based on query
+      description: Search the book content for relevant information based on the user's query
+      operationId: retrieveContent
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RetrieveRequest'
+      responses:
+        '200':
+          description: Successful retrieval of relevant content
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RetrieveResponse'
+        '400':
+          description: Invalid request format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      tags:
+        - Retrieval
+
+  /api/session:
+    post:
+      summary: Create a new chat session
+      description: Initialize a new chat session with specified parameters
+      operationId: createSession
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateSessionRequest'
+      responses:
+        '200':
+          description: Session created successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CreateSessionResponse'
+        '400':
+          description: Invalid request format
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      tags:
+        - Session
+
+  /api/session/{sessionId}:
+    get:
+      summary: Get session details and history
+      description: Retrieve information about a specific chat session including conversation history
+      operationId: getSession
+      parameters:
+        - name: sessionId
+          in: path
+          required: true
+          description: Unique identifier for the session
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Session details retrieved successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GetSessionResponse'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '500':
+          description: Internal server error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+      tags:
+        - Session
+
+components:
+  schemas:
+    ChatRequest:
+      type: object
+      required:
+        - session_id
+        - message
+      properties:
+        session_id:
+          type: string
+          format: uuid
+          description: Unique identifier for the chat session
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        message:
+          type: string
+          description: The user's message/question
+          example: "Explain how ROS 2 handles message passing between nodes"
+        mode:
+          type: string
+          enum: [global, selected-text]
+          description: Retrieval mode (global or selected-text)
+          default: global
+        selected_text:
+          type: string
+          description: Optional selected text for selected-text mode
+          example: "ROS 2 uses a publish-subscribe model for communication between nodes"
+
+    ChatResponse:
+      type: object
+      required:
+        - session_id
+        - response
+        - timestamp
+      properties:
+        session_id:
+          type: string
+          format: uuid
+          description: Unique identifier for the chat session
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        response:
+          type: string
+          description: The AI-generated response
+          example: "ROS 2 uses a publish-subscribe model where nodes communicate through topics..."
+        retrieved_context:
+          type: array
+          description: Context fragments used to generate the response
+          items:
+            $ref: '#/components/schemas/RetrievedContext'
+        timestamp:
+          type: string
+          format: date-time
+          description: When the response was generated
+          example: "2023-12-08T10:30:00Z"
+
+    RetrieveRequest:
+      type: object
+      required:
+        - query
+      properties:
+        query:
+          type: string
+          description: The search query
+          example: "How do humanoid robots maintain balance?"
+        mode:
+          type: string
+          enum: [global, selected-text]
+          description: Retrieval mode (global or selected-text)
+          default: global
+        selected_text:
+          type: string
+          description: Optional selected text for selected-text mode
+
+    RetrieveResponse:
+      type: object
+      required:
+        - results
+      properties:
+        results:
+          type: array
+          description: Retrieved content fragments
+          items:
+            $ref: '#/components/schemas/RetrievedResult'
+
+    RetrievedResult:
+      type: object
+      required:
+        - content
+        - source
+        - score
+      properties:
+        content:
+          type: string
+          description: The retrieved content fragment
+          example: "Humanoid robots maintain balance using a combination of sensors including IMUs, force sensors, and control algorithms like the zero moment point (ZMP) method."
+        source:
+          type: string
+          description: Reference to the source document
+          example: "module3/chapter2.md#balance-control"
+        score:
+          type: number
+          format: float
+          description: Relevance score (0.0 to 1.0)
+          example: 0.92
+
+    RetrievedContext:
+      type: object
+      required:
+        - content
+        - source
+        - confidence
+      properties:
+        content:
+          type: string
+          description: The content fragment used for context
+          example: "The robotic nervous system in ROS 2 consists of nodes, topics, services, and actions..."
+        source:
+          type: string
+          description: Reference to the source document
+          example: "module1/chapter1.md#nervous-system"
+        confidence:
+          type: number
+          format: float
+          description: Confidence score (0.0 to 1.0)
+          example: 0.87
+
+    CreateSessionRequest:
+      type: object
+      properties:
+        initial_mode:
+          type: string
+          enum: [global, selected-text]
+          description: Initial retrieval mode for the session
+          default: global
+
+    CreateSessionResponse:
+      type: object
+      required:
+        - session_id
+        - created_at
+      properties:
+        session_id:
+          type: string
+          format: uuid
+          description: Unique identifier for the created session
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        created_at:
+          type: string
+          format: date-time
+          description: When the session was created
+          example: "2023-12-08T10:30:00Z"
+
+    GetSessionResponse:
+      type: object
+      required:
+        - session_id
+        - mode
+        - created_at
+        - last_active
+        - history
+      properties:
+        session_id:
+          type: string
+          format: uuid
+          description: Unique identifier for the session
+          example: "f47ac10b-58cc-4372-a567-0e02b2c3d479"
+        mode:
+          type: string
+          enum: [global, selected-text]
+          description: Current retrieval mode
+          example: global
+        created_at:
+          type: string
+          format: date-time
+          description: When the session was created
+          example: "2023-12-08T10:30:00Z"
+        last_active:
+          type: string
+          format: date-time
+          description: When the session was last active
+          example: "2023-12-08T10:45:00Z"
+        history:
+          type: array
+          description: Conversation history
+          items:
+            $ref: '#/components/schemas/ChatMessage'
+
+    ChatMessage:
+      type: object
+      required:
+        - role
+        - content
+        - timestamp
+      properties:
+        role:
+          type: string
+          enum: [user, assistant]
+          description: Role of the message sender
+          example: user
+        content:
+          type: string
+          description: The message content
+          example: "What is the difference between ROS and ROS 2?"
+        timestamp:
+          type: string
+          format: date-time
+          description: When the message was created
+          example: "2023-12-08T10:35:00Z"
+
+    ErrorResponse:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+          description: Error type
+          example: "InvalidRequest"
+        message:
+          type: string
+          description: Human-readable error message
+          example: "Session ID is required"
+
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: Bearer token for API authentication
+
+security:
+  - BearerAuth: []
+
+tags:
+  - name: Chat
+    description: Chat conversation endpoints
+  - name: Retrieval
+    description: Content retrieval endpoints
+  - name: Session
+    description: Session management endpoints

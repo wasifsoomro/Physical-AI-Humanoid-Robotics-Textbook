@@ -763,6 +763,20 @@
                 "title": "Module 4 Quiz: Vision-Language-Action Robotics",
                 "permalink": "/docs/module4/quiz"
               }
+            },
+            {
+              "id": "rag-chatbot/README",
+              "title": "RAG Chatbot for Humanoid Robotics Book",
+              "description": "Overview",
+              "source": "@site/docs/rag-chatbot/README.md",
+              "sourceDirName": "rag-chatbot",
+              "slug": "/rag-chatbot/",
+              "permalink": "/docs/rag-chatbot/",
+              "draft": false,
+              "unlisted": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {}
             }
           ],
           "drafts": [],

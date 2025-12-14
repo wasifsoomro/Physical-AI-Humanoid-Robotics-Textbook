@@ -1,8 +1,8 @@
 <!--
 Sync Impact Report:
-Version change: 0.0.0 → 0.1.0 (Minor: Initial constitution creation with significant content)
-Modified principles: All (newly defined)
-Added sections: Key Standards, Constraints, Success Criteria, Non-Negotiables
+Version change: 0.1.0 → 0.2.0 (Minor: Added Phase 2 RAG Chatbot Development section)
+Modified principles: None
+Added sections: Phase 2: Integrated RAG Chatbot Development
 Removed sections: None
 Templates requiring updates:
 - .specify/templates/plan-template.md: ⚠ pending
@@ -74,8 +74,47 @@ No step of the Spec-Kit Plus pipeline may be skipped.
 No fictional commands, frameworks, or features.
 All instructions and examples MUST be realistic, reproducible, and verifiable.
 
+## Phase 2: Integrated RAG Chatbot Development
+
+### Core Principles
+
+#### Retrieval Accuracy
+The chatbot MUST answer strictly from book content or selected text. No hallucinated responses or fabricated information are allowed.
+
+#### Performance
+Responses SHOULD be low-latency and efficient. API endpoints MUST respond within reasonable timeframes for a good user experience.
+
+#### Security & Privacy
+The system MUST safely handle user queries, embeddings, and logs. No sensitive data should be exposed or improperly stored.
+
+#### Reproducibility
+The RAG pipeline and API endpoints MUST be deterministic, producing consistent results for identical inputs.
+
+### Key Standards
+
+- Use OpenAI Agents/ChatKit for AI capabilities
+- Use FastAPI for backend API development
+- Use Neon Postgres for metadata, chat history, and context storage
+- Use Qdrant Cloud Free Tier for vector storage
+- Chunk size: 300–800 tokens with 50–100 token overlap for optimal retrieval
+
+### Constraints
+
+- The chatbot MUST run inside the existing Docusaurus site
+- System MUST support both "global retrieval" and "selected text retrieval" modes
+- Implementation MUST respect token limits, Qdrant limits, and CORS rules
+- All components MUST integrate seamlessly with the existing book infrastructure
+
+### Success Criteria
+
+- Chatbot embedded directly in the deployed book interface
+- Correct retrieval from book content and highlighted text
+- Fast, accurate responses that enhance the learning experience
+- Successful integration with the existing Docusaurus site
+- Proper handling of context and conversation history
+
 ## Governance
 
 This constitution supersedes all other practices. Amendments require documentation, approval, and a migration plan. All PRs/reviews MUST verify compliance. Complexity MUST be justified.
 
-**Version**: 0.1.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-04
+**Version**: 0.2.0 | **Ratified**: 2025-12-04 | **Last Amended**: 2025-12-08

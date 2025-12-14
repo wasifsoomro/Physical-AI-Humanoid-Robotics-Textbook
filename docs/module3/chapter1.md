@@ -34,13 +34,22 @@ graph LR
     L -.-> F
     L -.-> I
 
-    style A fill:#e1f5fe
-    style B fill:#e8f5e8
-    style I fill:#fff3e0
-    style L fill:#f3e5f5
-    style D fill:#f1f8e9
-    style F fill:#e8f5f9
-    style K fill:#f5e8f9
+    A:::styleA
+    B:::styleB
+    I:::styleI
+    L:::styleL
+    D:::styleD
+    F:::styleF
+    K:::styleK
+
+%% CSS classes for styling
+    classDef styleA fill:#e1f5fe;
+    classDef styleB fill:#e8f5e8;
+    classDef styleI fill:#fff3e0;
+    classDef styleL fill:#f3e5f5;
+    classDef styleD fill:#f1f8e9;
+    classDef styleF fill:#e8f5f9;
+    classDef styleK fill:#f5e8f9;
 ```
 
 This diagram shows how the AI-Robot Brain integrates perception, mapping, and navigation systems to create intelligent autonomous behavior.

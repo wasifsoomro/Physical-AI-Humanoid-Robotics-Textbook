@@ -1,0 +1,19 @@
+Metadata-Version: 2.4
+Name: rag-chatbot-backend
+Version: 1.0.0
+Summary: Backend for the RAG Chatbot system
+Author-email: Your Name <your.email@example.com>
+Requires-Dist: fastapi==0.104.1
+Requires-Dist: uvicorn[standard]==0.24.0
+Requires-Dist: pydantic==2.5.0
+Requires-Dist: pydantic-settings==2.1.0
+Requires-Dist: sqlalchemy==2.0.23
+Requires-Dist: qdrant-client==1.8.0
+Requires-Dist: cohere==5.5.3
+Requires-Dist: python-dotenv==1.0.0
+Requires-Dist: pyjwt==2.8.0
+Requires-Dist: passlib[bcrypt]==1.7.4
+Requires-Dist: python-multipart==0.0.6
+Requires-Dist: alembic==1.13.1
+Requires-Dist: uuid7==0.1.0
+Requires-Dist: bleach==6.1.0

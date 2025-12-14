@@ -78,10 +78,10 @@ description: "Task list for Physical AI & Humanoid Robotics Educational Book imp
 
 ### Implementation for User Story 2
 
-- [ ] T017 [US2] Research Humanoid URDF integration with Gazebo, physics, sensors (IMU, LiDAR, Depth Camera), and ROS-Gazebo bridge.
-- [ ] T018 [US2] Draft content for Module 2 Humanoid URDF in Gazebo in `docs/module2/chapter1.md`
-- [ ] T019 [US2] Draft content for Module 2 Physics and Sensors in `docs/module2/chapter2.md`
-- [ ] T020 [US2] Draft content for Module 2 ROS-Gazebo Bridge in `docs/module2/chapter3.md`
+- [x] T017 [US2] Research Humanoid URDF integration with Gazebo, physics, sensors (IMU, LiDAR, Depth Camera), and ROS-Gazebo bridge.
+- [x] T018 [US2] Draft content for Module 2 Humanoid URDF in Gazebo in `docs/module2/chapter1.md`
+- [x] T019 [US2] Draft content for Module 2 Physics and Sensors in `docs/module2/chapter2.md`
+- [x] T020 [US2] Draft content for Module 2 ROS-Gazebo Bridge in `docs/module2/chapter3.md`
 - [X] T021 [P] [US2] Implement Simulation Workflow 1: Basic Humanoid in Gazebo in `docs/module2/simulations/sim1.launch.py`
 - [X] T022 [P] [US2] Implement Simulation Workflow 2: Sensor Integration in `docs/module2/simulations/sim2.launch.py`
 - [X] T023 [P] [US2] Implement Simulation Workflow 3: ROS-Gazebo Communication in `docs/module2/simulations/sim3.launch.py`

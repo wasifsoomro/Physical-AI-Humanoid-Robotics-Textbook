@@ -414,6 +414,11 @@
       "title": "Module 4 Summary: Vision-Language-Action Robotics (VLA)",
       "description": "Overview",
       "sidebar": "tutorialSidebar"
+    },
+    "rag-chatbot/README": {
+      "id": "rag-chatbot/README",
+      "title": "RAG Chatbot for Humanoid Robotics Book",
+      "description": "Overview"
     }
   }
 }

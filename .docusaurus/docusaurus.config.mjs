@@ -29,7 +29,7 @@ export default {
           "sidebarPath": "D:\\Web 3 Metavers and GenAI\\Wasif\\My Hackathon\\humanoid-robotics-book\\sidebars.js"
         },
         "theme": {
-          "customCss": "D:\\Web 3 Metavers and GenAI\\Wasif\\My Hackathon\\humanoid-robotics-book\\src\\css\\custom.css"
+          "customCss": "D:\\Web 3 Metavers and GenAI\\Wasif\\My Hackathon\\humanoid-robotics-book\\docusaurus-theme\\css\\custom.css"
         }
       }
     ]

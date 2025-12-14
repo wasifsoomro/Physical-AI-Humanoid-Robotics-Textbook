@@ -44,10 +44,16 @@ graph TB
     T --> U[Improved Robot Capabilities]
     U --> A
 
-    style A fill:#e1f5fe
-    style P fill:#f3e5f5
-    style C fill:#e8f5e8
-    style T fill:#fff3e0
+    A:::styleA
+    P:::styleP
+    C:::styleC
+    T:::styleT
+
+%% CSS classes for styling
+    classDef styleA fill:#e1f5fe;
+    classDef styleP fill:#f3e5f5;
+    classDef styleC fill:#e8f5e8;
+    classDef styleT fill:#fff3e0;
 ```
 
 This diagram illustrates the interconnected nature of the systems covered in this book, from natural language interaction to AI-powered robot execution.

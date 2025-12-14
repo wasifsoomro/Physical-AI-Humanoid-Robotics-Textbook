@@ -1,0 +1,2 @@
+[console_scripts]
+ingest-book = ingestion.content_pipeline:main

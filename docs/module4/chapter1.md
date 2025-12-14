@@ -51,12 +51,20 @@ graph TD
     T --> U[Improved Robot Capabilities]
     U --> A
 
-    style A fill:#e1f5fe
-    style C fill:#e8f5e8
-    style H fill:#f1f8e9
-    style T fill:#fff3e0
-    style P fill:#f3e5f5
-    style S fill:#e8f5f9
+    A:::styleA
+    C:::styleC
+    H:::styleH
+    T:::styleT
+    P:::styleP
+    S:::styleS
+
+%% CSS classes for styling
+    classDef styleA fill:#e1f5fe;
+    classDef styleC fill:#e8f5e8;
+    classDef styleH fill:#f1f8e9;
+    classDef styleT fill:#fff3e0;
+    classDef styleP fill:#f3e5f5;
+    classDef styleS fill:#e8f5f9;
 ```
 
 This diagram shows the complete VLA architecture integrating vision, language, and action systems with the broader robotics ecosystem. The system is organized into logical subgroups to make it easier to understand the flow from human interaction to robot execution and back.

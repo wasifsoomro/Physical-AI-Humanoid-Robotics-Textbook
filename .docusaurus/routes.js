@@ -4,15 +4,15 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '38d'),
+    component: ComponentCreator('/docs', '503'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '2cc'),
+        component: ComponentCreator('/docs', 'f87'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8cb'),
+            component: ComponentCreator('/docs', '2d2'),
             routes: [
               {
                 path: '/docs/intro',
@@ -195,6 +195,11 @@ export default [
                 component: ComponentCreator('/docs/module4/summary', '354'),
                 exact: true,
                 sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/rag-chatbot/',
+                component: ComponentCreator('/docs/rag-chatbot/', '7b7'),
+                exact: true
               }
             ]
           }

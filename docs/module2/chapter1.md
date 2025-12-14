@@ -25,14 +25,24 @@ graph LR
     H[Real Sensors] <--> I[Simulated Sensors]
     J[Real Actuators] <--> K[Simulated Actuators]
 
-    style A fill:#f3e5f5
-    style C fill:#e8f5e8
-    style F fill:#fff3e0
-    style E fill:#e1f5fe
-    style B fill:#f1f8e9
-    style D fill:#e8f5f9
-    style H fill:#e8f5f9
-    style J fill:#f5e8f9
+    A:::styleA
+    C:::styleC
+    F:::styleF
+    E:::styleE
+    B:::styleB
+    D:::styleD
+    H:::styleH
+    J:::styleJ
+
+%% CSS classes for styling
+    classDef styleA fill:#f3e5f5;
+    classDef styleC fill:#e8f5e8;
+    classDef styleF fill:#fff3e0;
+    classDef styleE fill:#e1f5fe;
+    classDef styleB fill:#f1f8e9;
+    classDef styleD fill:#e8f5f9;
+    classDef styleH fill:#e8f5f9;
+    classDef styleJ fill:#f5e8f9;
 ```
 
 This diagram shows how a digital twin creates a virtual replica of a physical robot, with synchronized data flow between real and simulated environments.

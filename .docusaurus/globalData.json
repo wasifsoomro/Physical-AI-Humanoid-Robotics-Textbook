@@ -160,6 +160,10 @@
               "id": "module4/summary",
               "path": "/docs/module4/summary",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "rag-chatbot/README",
+              "path": "/docs/rag-chatbot/"
             }
           ],
           "draftIds": [],

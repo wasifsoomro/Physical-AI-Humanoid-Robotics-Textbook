@@ -40,7 +40,7 @@ const config = {
           //   'https://github.com/humanoid-robotics-book/humanoid-robotics-book/tree/main/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./docusaurus-theme/css/custom.css'),
         },
       }),
     ],
