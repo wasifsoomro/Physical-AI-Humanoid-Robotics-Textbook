@@ -1,6 +1,7 @@
 // JavaScript wrapper for the Docusaurus Chat functionality
 import React, { useState, useEffect, useRef } from 'react';
 import { v4 as uuidv4 } from 'uuid';
+import { API_BASE_URL } from '@site/src/clientModules/config';
 
 // Since we can't directly import the TypeScript React component in Docusaurus,
 // we'll dynamically load the built chat widget or create a React component
@@ -22,8 +23,55 @@ const DocusaurusChat = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isOpen, setIsOpen] = useState(false); // For collapsible chat
   const [isDarkMode, setIsDarkMode] = useState(false); // For dark mode detection
+  const [selectedText, setSelectedText] = useState(''); // Currently selected text
+  const [preservedSelectedText, setPreservedSelectedText] = useState(''); // Preserved selected text
+  const [currentMode, setCurrentMode] = useState('global'); // 'global' or 'selected-text'
   const messagesEndRef = useRef(null);
   const chatContainerRef = useRef(null);
+
+  // Handle text selection with preservation
+  useEffect(() => {
+    const handleSelection = () => {
+      if (typeof window !== 'undefined' && typeof document !== 'undefined') {
+        const currentSelection = window.getSelection().toString().trim();
+        setSelectedText(currentSelection);
+
+        // If there's a new selection, preserve it
+        if (currentSelection) {
+          setPreservedSelectedText(currentSelection);
+          // Automatically switch to selected-text mode when text is selected
+          if (currentMode !== 'selected-text') {
+            setCurrentMode('selected-text');
+          }
+        }
+      }
+    };
+
+    // Add event listeners for text selection
+    document.addEventListener('mouseup', handleSelection);
+    document.addEventListener('touchend', handleSelection);
+    document.addEventListener('keyup', (e) => {
+      if (e.key === 'Escape') {
+        // Clear selection when Escape is pressed
+        window.getSelection().empty();
+        setSelectedText('');
+        setPreservedSelectedText(''); // Also clear preserved text
+      }
+    });
+
+    // Cleanup event listeners
+    return () => {
+      document.removeEventListener('mouseup', handleSelection);
+      document.removeEventListener('touchend', handleSelection);
+      document.removeEventListener('keyup', (e) => {
+        if (e.key === 'Escape') {
+          window.getSelection().empty();
+          setSelectedText('');
+          setPreservedSelectedText('');
+        }
+      });
+    };
+  }, [currentMode]);
 
   // Auto-scroll to bottom when messages change
   useEffect(() => {
@@ -54,7 +102,7 @@ const DocusaurusChat = () => {
     mediaQuery.addEventListener('change', updateDarkMode);
 
     return () => {
-      observer.disconnect();
+      observer.disconnect();  
       mediaQuery.removeEventListener('change', updateDarkMode);
     };
   }, []);
@@ -82,15 +130,16 @@ const DocusaurusChat = () => {
     setIsLoading(true);
 
     try {
-      // Prepare the request body for global mode only
+      // Prepare the request body with current mode and preserved selected text if applicable
       const requestBody = {
         session_id: sessionId,
         message: inputValue,
-        mode: 'global', // Fixed to global mode only
+        mode: currentMode,
+        selected_text: currentMode === 'selected-text' ? preservedSelectedText : undefined,
       };
 
-      // Send message to backend
-      const response = await fetch('http://localhost:8002/api/chat', {
+      // Send message to backend using the configured API base URL
+      const response = await fetch(`${API_BASE_URL}/api/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -134,6 +183,11 @@ const DocusaurusChat = () => {
   // Toggle chat window open/close
   const toggleChat = () => {
     setIsOpen(!isOpen);
+  };
+
+  // Switch between global and selected-text modes
+  const switchMode = (mode) => {
+    setCurrentMode(mode);
   };
 
   // Define theme colors based on dark mode
@@ -215,7 +269,7 @@ const DocusaurusChat = () => {
       fontFamily: 'system-ui, -apple-system, sans-serif',
       zIndex: 1000
     }}>
-      {/* Header with close button */}
+      {/* Header with close button and mode selector */}
       <div style={{
         backgroundColor: themeColors.primary,
         color: 'white',
@@ -229,7 +283,46 @@ const DocusaurusChat = () => {
           <span style={{ fontSize: '18px' }}>🤖</span>
           <span>Humanoid Robotics Assistant</span>
         </div>
-        <div style={{ display: 'flex', gap: '8px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+          {/* Mode selector */}
+          <div style={{
+            display: 'flex',
+            gap: '2px',
+            borderRadius: '12px',
+            background: 'rgba(255,255,255,0.2)',
+            padding: '2px'
+          }}>
+            <button
+              onClick={() => switchMode('global')}
+              style={{
+                background: currentMode === 'global' ? 'white' : 'transparent',
+                color: currentMode === 'global' ? themeColors.primary : 'white',
+                border: 'none',
+                borderRadius: '10px',
+                padding: '4px 8px',
+                fontSize: '12px',
+                cursor: 'pointer',
+                fontWeight: currentMode === 'global' ? 'bold' : 'normal'
+              }}
+            >
+              Global
+            </button>
+            <button
+              onClick={() => switchMode('selected-text')}
+              style={{
+                background: currentMode === 'selected-text' ? 'white' : 'transparent',
+                color: currentMode === 'selected-text' ? themeColors.primary : 'white',
+                border: 'none',
+                borderRadius: '10px',
+                padding: '4px 8px',
+                fontSize: '12px',
+                cursor: 'pointer',
+                fontWeight: currentMode === 'selected-text' ? 'bold' : 'normal'
+              }}
+            >
+              Selected Text
+            </button>
+          </div>
           <button
             onClick={toggleChat}
             style={{
@@ -268,6 +361,7 @@ const DocusaurusChat = () => {
             padding: '20px 0',
             flex: 1,
             display: 'flex',
+            flexDirection: 'column',
             alignItems: 'center',
             justifyContent: 'center'
           }}>
@@ -275,8 +369,27 @@ const DocusaurusChat = () => {
               <div style={{ fontSize: '24px', marginBottom: '10px', color: themeColors.primary }}>🤖</div>
               <div style={{ color: themeColors.text }}>Ask me anything about the Humanoid Robotics Book!</div>
               <div style={{ fontSize: '12px', marginTop: '8px', color: themeColors.textSecondary }}>
-                Global context mode enabled
+                {currentMode === 'global'
+                  ? 'Global context mode enabled'
+                  : 'Selected text mode enabled'}
               </div>
+              {currentMode === 'selected-text' && preservedSelectedText && (
+                <div style={{
+                  marginTop: '8px',
+                  padding: '8px',
+                  backgroundColor: themeColors.userMessageBg,
+                  borderRadius: '8px',
+                  fontSize: '12px',
+                  color: themeColors.text,
+                  maxWidth: '90%',
+                  wordWrap: 'break-word',
+                  maxHeight: '60px',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis'
+                }}>
+                  Selected: "{preservedSelectedText.substring(0, 100)}{preservedSelectedText.length > 100 ? '...' : ''}"
+                </div>
+              )}
             </div>
           </div>
         ) : (
@@ -341,25 +454,116 @@ const DocusaurusChat = () => {
         display: 'flex',
         alignItems: 'center'
       }}>
-        <input
-          type="text"
-          value={inputValue}
-          onChange={(e) => setInputValue(e.target.value)}
-          placeholder="Ask a question about the book..."
-          style={{
-            flex: 1,
-            padding: '12px 15px',
-            border: `1px solid ${themeColors.inputBorder}`,
-            borderRadius: '24px',
-            fontSize: '14px',
-            marginRight: '10px',
-            outline: 'none',
-            backgroundColor: themeColors.inputBg,
-            color: themeColors.text
-          }}
-          disabled={isLoading}
-          autoFocus
-        />
+        <div style={{ display: 'flex', flex: 1, gap: '8px' }}>
+          <input
+            type="text"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
+            placeholder={currentMode === 'selected-text' && preservedSelectedText
+              ? "Ask about the selected text..."
+              : "Ask a question about the book..."}
+            style={{
+              flex: 1,
+              padding: '12px 15px',
+              border: currentMode === 'selected-text' && preservedSelectedText
+                ? `2px solid ${themeColors.primary}`  // Highlight when in selected-text mode
+                : `1px solid ${themeColors.inputBorder}`,
+              borderRadius: '24px',
+              fontSize: '14px',
+              outline: 'none',
+              backgroundColor: themeColors.inputBg,
+              color: themeColors.text
+            }}
+            disabled={isLoading}
+            autoFocus
+          />
+          {currentMode === 'selected-text' && preservedSelectedText && (
+            <button
+              type="button"
+              onClick={async () => {
+                // Auto-ask about the selected text with a general question
+                const autoQuestion = "Can you explain this concept in more detail?";
+                setInputValue(autoQuestion);
+
+                // Prepare the request body with current mode and preserved selected text
+                const requestBody = {
+                  session_id: sessionId,
+                  message: autoQuestion,
+                  mode: currentMode,
+                  selected_text: preservedSelectedText,
+                };
+
+                // Add user message to UI immediately
+                const userMessage = {
+                  id: uuidv4(),
+                  role: 'user',
+                  content: autoQuestion,
+                  timestamp: new Date(),
+                };
+
+                setMessages(prev => [...prev, userMessage]);
+                setIsLoading(true);
+
+                try {
+                  // Send message to backend using the configured API base URL
+                  const response = await fetch(`${API_BASE_URL}/api/chat`, {
+                    method: 'POST',
+                    headers: {
+                      'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(requestBody),
+                  });
+
+                  if (response.ok) {
+                    const data = await response.json();
+                    const botMessage = {
+                      id: uuidv4(),
+                      role: 'assistant',
+                      content: data.response,
+                      timestamp: new Date(),
+                    };
+                    setMessages(prev => [...prev, botMessage]);
+                  } else {
+                    const errorData = await response.json();
+                    const errorMessage = {
+                      id: uuidv4(),
+                      role: 'assistant',
+                      content: `Error: ${errorData.detail || 'Failed to get response'}`,
+                      timestamp: new Date(),
+                    };
+                    setMessages(prev => [...prev, errorMessage]);
+                  }
+                } catch (error) {
+                  console.error('Error sending message:', error);
+                  const errorMessage = {
+                    id: uuidv4(),
+                    role: 'assistant',
+                    content: 'Error: Failed to connect to the chat service',
+                    timestamp: new Date(),
+                  };
+                  setMessages(prev => [...prev, errorMessage]);
+                } finally {
+                  setIsLoading(false);
+                }
+              }}
+              style={{
+                padding: '8px 12px',
+                backgroundColor: themeColors.primary,
+                color: 'white',
+                border: 'none',
+                borderRadius: '20px',
+                cursor: 'pointer',
+                fontSize: '12px',
+                fontWeight: 'bold',
+                whiteSpace: 'nowrap'
+              }}
+              disabled={isLoading}
+              title="Auto-explain selected text"
+            >
+              Auto
+            </button>
+          )}
+        </div>
         <button
           type="submit"
           style={{

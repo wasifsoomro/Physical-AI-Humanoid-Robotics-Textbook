@@ -21,6 +21,9 @@ export default {
     "path": "i18n",
     "localeConfigs": {}
   },
+  "clientModules": [
+    "D:\\Web 3 Metavers and GenAI\\Wasif\\My Hackathon\\humanoid-robotics-book\\src\\clientModules\\config.js"
+  ],
   "presets": [
     [
       "classic",
@@ -317,7 +320,6 @@ export default {
   "scripts": [],
   "headTags": [],
   "stylesheets": [],
-  "clientModules": [],
   "titleDelimiter": "|",
   "noIndex": false,
   "markdown": {

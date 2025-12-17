@@ -28,6 +28,9 @@ const config = {
     locales: ['en'],
   },
 
+  clientModules: [
+    require.resolve('./src/clientModules/config.js'),
+  ],
   presets: [
     [
       'classic',

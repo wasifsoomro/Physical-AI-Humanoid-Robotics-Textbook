@@ -20,9 +20,30 @@ app = FastAPI(
 )
 
 # Add CORS middleware
+import os
+# Get allowed origins from environment variable, default to all for development
+allowed_origins_legacy = os.getenv("ALLOWED_ORIGINS", "*").split(",")  # For backward compatibility
+# Remove any empty strings and strip whitespace
+allowed_origins_legacy = [origin.strip() for origin in allowed_origins_legacy if origin.strip()]
+
+# Check the correct environment variable name as well
+allowed_origins_new = os.getenv("ALLOWED_ORIGINS", "").split(",")  # Correct spelling
+allowed_origins_new = [origin.strip() for origin in allowed_origins_new if origin.strip()]
+
+# Use the correct variable if it's set, otherwise use the legacy one or default
+if allowed_origins_new:
+    # Use the new variable if it's set with values
+    allowed_origins = allowed_origins_new
+elif allowed_origins_legacy and allowed_origins_legacy != ["*"]:
+    # Use legacy if new one isn't set but legacy has specific origins
+    allowed_origins = allowed_origins_legacy
+else:
+    # Default to allowing all origins for development if neither is set properly
+    allowed_origins = ["*"]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific origins
+    allow_origins=allowed_origins,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

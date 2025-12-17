@@ -1,24 +1,24 @@
 #!/bin/bash
-# Script to start the frontend development server
+# Script to start the Docusaurus frontend development server
 
-echo "Starting the RAG Chatbot frontend development server..."
+echo "Starting the RAG Chatbot Docusaurus frontend development server..."
 
 # Get the directory of this script
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
+PROJECT_ROOT="$SCRIPT_DIR"  # Already in project root
 
 echo "Project root: $PROJECT_ROOT"
-echo "Changing to frontend directory: $PROJECT_ROOT/frontend"
+echo "Changing to project root directory: $PROJECT_ROOT"
 
-cd "$PROJECT_ROOT/frontend"
+cd "$PROJECT_ROOT"
 
 # Install dependencies
-echo "Installing frontend dependencies..."
+echo "Installing Docusaurus dependencies..."
 npm install
 
-# Set environment variables
-export REACT_APP_API_BASE_URL=http://localhost:8002
+# Set environment variables for Docusaurus
+export REACT_APP_API_BASE_URL=http://localhost:8000
 
-# Run the React development server
-echo "Starting React development server..."
+# Run the Docusaurus development server
+echo "Starting Docusaurus development server..."
 npm start

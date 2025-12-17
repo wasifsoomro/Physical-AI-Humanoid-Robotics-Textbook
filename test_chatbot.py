@@ -8,10 +8,10 @@ import json
 
 def test_chatbot():
     # Test the chatbot with a simple query
-    url = "http://localhost:8002/api/chat"
+    url = "http://localhost:8000/api/chat"
 
     # Create a test session
-    session_response = requests.post("http://localhost:8002/api/session",
+    session_response = requests.post("http://localhost:8000/api/session",
                                     json={"mode": "global"})
     if session_response.status_code == 200:
         session_data = session_response.json()

@@ -1,150 +1,193 @@
 {
-  "/docs-503": {
-    "__comp": "5e95c892",
+  "/__docusaurus/debug-6eb": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a2c57af3"
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/__docusaurus/debug/config-58f": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/__docusaurus/debug/content-0d7": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-aa8": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/__docusaurus/debug/metadata-1cb": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/__docusaurus/debug/registry-6b3": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/__docusaurus/debug/routes-45a": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugec-2-41f"
+    }
+  },
+  "/docs-503": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsa-2-c-8eb"
     }
   },
   "/docs-f87": {
-    "__comp": "a7bd4aaa",
-    "version": "935f2afb"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "version": "version---docs-935-398"
   },
   "/docs-2d2": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/intro-aed": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/module1/chapter1-899": {
-    "__comp": "17896441",
-    "content": "c25a8be8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-1-c-25-084"
   },
   "/docs/module1/chapter2-01c": {
-    "__comp": "17896441",
-    "content": "e8ee774b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-2-e-8-e-916"
   },
   "/docs/module1/chapter3-1b6": {
-    "__comp": "17896441",
-    "content": "44c1e677"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-chapter-344-c-f1e"
   },
   "/docs/module1/mini-project-55b": {
-    "__comp": "17896441",
-    "content": "2099854f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-mini-project-209-182"
   },
   "/docs/module1/practical-demos-b1f": {
-    "__comp": "17896441",
-    "content": "726cfe2c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-practical-demos-726-605"
   },
   "/docs/module1/quiz-d19": {
-    "__comp": "17896441",
-    "content": "43a63e0e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-quiz-43-a-79f"
   },
   "/docs/module1/summary-b64": {
-    "__comp": "17896441",
-    "content": "1fb05d8c"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-1-summary-1-fb-9b7"
   },
   "/docs/module2/chapter1-e7f": {
-    "__comp": "17896441",
-    "content": "71260612"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-1712-7ac"
   },
   "/docs/module2/chapter2-ba8": {
-    "__comp": "17896441",
-    "content": "832badc6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-2832-57a"
   },
   "/docs/module2/chapter3-b82": {
-    "__comp": "17896441",
-    "content": "db5e1aba"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-chapter-3-db-5-b58"
   },
   "/docs/module2/mini-project-c34": {
-    "__comp": "17896441",
-    "content": "4e3a961d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-mini-project-4-e-3-1ca"
   },
   "/docs/module2/practical-demos-ec1": {
-    "__comp": "17896441",
-    "content": "70bc8a6f"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-practical-demos-70-b-8d7"
   },
   "/docs/module2/quiz-1ee": {
-    "__comp": "17896441",
-    "content": "b3b09fc8"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-quizb-3-b-568"
   },
   "/docs/module2/summary-869": {
-    "__comp": "17896441",
-    "content": "371ef77b"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-2-summary-371-6a2"
   },
   "/docs/module3/chapter1-ce2": {
-    "__comp": "17896441",
-    "content": "012cb2e2"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-1012-ffe"
   },
   "/docs/module3/chapter2-db1": {
-    "__comp": "17896441",
-    "content": "6f631317"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-26-f-6-624"
   },
   "/docs/module3/chapter3-491": {
-    "__comp": "17896441",
-    "content": "b7331908"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-3-b-73-8f3"
   },
   "/docs/module3/chapter4-f23": {
-    "__comp": "17896441",
-    "content": "be63eca0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-chapter-4-be-6-34e"
   },
   "/docs/module3/mini-project-5d9": {
-    "__comp": "17896441",
-    "content": "aa37ca7e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-mini-projectaa-3-eb3"
   },
   "/docs/module3/practical-demos-a60": {
-    "__comp": "17896441",
-    "content": "8948b8cc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-practical-demos-894-23f"
   },
   "/docs/module3/quiz-ed5": {
-    "__comp": "17896441",
-    "content": "e298b76e"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-quize-29-7fd"
   },
   "/docs/module3/summary-9f4": {
-    "__comp": "17896441",
-    "content": "eac2ef45"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-3-summaryeac-b1b"
   },
   "/docs/module4/chapter1-645": {
-    "__comp": "17896441",
-    "content": "bb3c4e75"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-1-bb-3-5b5"
   },
   "/docs/module4/chapter2-68e": {
-    "__comp": "17896441",
-    "content": "fbb6e396"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-2-fbb-55e"
   },
   "/docs/module4/chapter3-6d1": {
-    "__comp": "17896441",
-    "content": "b8e9e960"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-3-b-8-e-8e3"
   },
   "/docs/module4/chapter4-104": {
-    "__comp": "17896441",
-    "content": "22928252"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-chapter-4229-be9"
   },
   "/docs/module4/mini-project-5d6": {
-    "__comp": "17896441",
-    "content": "23dc4e0a"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-mini-project-23-d-2eb"
   },
   "/docs/module4/practical-demos-7b4": {
-    "__comp": "17896441",
-    "content": "555fc56d"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-practical-demos-555-723"
   },
   "/docs/module4/quiz-563": {
-    "__comp": "17896441",
-    "content": "46f3cd20"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-quiz-46-f-883"
   },
   "/docs/module4/summary-354": {
-    "__comp": "17896441",
-    "content": "88c65e52"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-module-4-summary-88-c-cbb"
   },
   "/docs/rag-chatbot/-7b7": {
-    "__comp": "17896441",
-    "content": "8b7d46ed"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-rag-chatbot-8-b-7-4ed"
   },
   "/-36e": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "8bef4b98"
+      "plugin": "plugin---8-be-49d"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }
