@@ -431,6 +431,9 @@ const DocusaurusChat = () => {
               <div style={{ fontSize: '24px', marginBottom: '10px', color: themeColors.primary }}>🤖</div>
               <div style={{ color: themeColors.text }}>Ask me anything about the Humanoid Robotics Book!</div>
               <div style={{ fontSize: '12px', marginTop: '8px', color: themeColors.textSecondary }}>
+                I can only answer questions related to humanoid robotics from the book.
+              </div>
+              <div style={{ fontSize: '12px', marginTop: '8px', color: themeColors.textSecondary }}>
                 {currentMode === 'global'
                   ? 'Global context mode enabled'
                   : 'Selected text mode enabled'}

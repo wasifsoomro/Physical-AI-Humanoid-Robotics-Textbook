@@ -6,7 +6,7 @@ const API_BASE_URL =
     ? window.DOCUSAURUS_API_CONFIG.API_BASE_URL
     : typeof process !== 'undefined' && process.env?.REACT_APP_API_BASE_URL
       ? process.env.REACT_APP_API_BASE_URL
-      : 'http://localhost:8000';
+      : 'https://wasifsoomro-rag-chatbot.hf.space';
 
 // Make it available globally for the chat component
 if (typeof window !== 'undefined') {
